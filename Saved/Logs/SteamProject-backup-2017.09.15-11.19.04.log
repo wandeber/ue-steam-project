@@ -1,0 +1,1238 @@
+﻿Log file open, 09/14/17 22:43:56
+LogInit:Display: Running engine for game: SteamProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1113885593) SRandInit(1113885593).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.066260
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.14-20.43.56:749][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.14-20.43.56:749][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.14-20.43.56:761][  0]LogInit: Computer: DESKTOP-N45ODSG
+[2017.09.14-20.43.56:761][  0]LogInit: User: B
+[2017.09.14-20.43.56:761][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.09.14-20.43.56:761][  0]LogInit: High frequency timer resolution =3.914064 MHz
+[2017.09.14-20.43.56:761][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.14-20.43.56:761][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.14-20.43.56:761][  0]LogMemory: Process Physical Memory: 263.45 MB used, 263.45 MB peak
+[2017.09.14-20.43.56:761][  0]LogMemory: Process Virtual Memory: 262.34 MB used, 262.34 MB peak
+[2017.09.14-20.43.56:761][  0]LogMemory: Physical Memory: 8367.21 MB used,  7965.42 MB free, 16332.63 MB total
+[2017.09.14-20.43.56:761][  0]LogMemory: Virtual Memory: 645.24 MB used,  7965.42 MB free, 134217728.00 MB total
+[2017.09.14-20.43.56:829][  0]LogTextLocalizationManager: No specific translations for ('es-ES') exist, so ('es') translations will be used.
+[2017.09.14-20.43.57:110][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.14-20.43.57:144][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.09.14-20.43.57:144][  0]LogD3D11RHI:       8085/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.14-20.43.57:145][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.14-20.43.57:145][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.14-20.43.57:145][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.14-20.43.57:149][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.14-20.43.57:150][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.14-20.43.57:150][  0]LogWindows: EnumDisplayDevices:
+[2017.09.14-20.43.57:150][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.09.14-20.43.57:150][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.14-20.43.57:150][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.14-20.43.57:150][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.14-20.43.57:150][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.14-20.43.57:150][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.09.14-20.43.57:150][  0]LogD3D11RHI:   Driver Version: 385.28 (internal:22.21.13.8528, unified:385.28)
+[2017.09.14-20.43.57:150][  0]LogD3D11RHI:      Driver Date: 8-9-2017
+[2017.09.14-20.43.57:150][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.14-20.43.57:169][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.14-20.43.57:178][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.14-20.43.57:225][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (D:/Documents/UnrealProjects/SteamProject/Intermediate/Shaders/WorkingDirectory/13968/).
+[2017.09.14-20.43.57:225][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/B/AppData/Local/Temp/UnrealShaderWorkingDir/898BE6E04561676B24F290B4D5539DC5/'.
+[2017.09.14-20.43.57:225][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.14-20.43.57:975][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.14-20.43.58:015][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.14-20.43.58:053][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.14-20.43.58:090][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.14-20.43.58:128][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.14-20.43.58:166][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.14-20.43.58:204][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.14-20.43.58:242][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.14-20.43.58:272][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.14-20.43.58:309][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.14-20.43.58:345][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.14-20.43.58:383][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.14-20.43.58:420][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.14-20.43.58:457][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.14-20.43.58:494][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.14-20.43.58:566][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.14-20.43.58:566][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.14-20.43.58:592][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.14-20.43.58:664][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.14-20.43.58:688][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.14-20.43.58:726][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.14-20.43.58:761][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.14-20.43.58:798][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.14-20.43.58:835][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.14-20.43.58:835][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.14-20.43.59:127][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.14-20.43.59:164][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/B/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.09.14-20.43.59:164][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/B/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.09.14-20.43.59:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documents/UnrealProjects/SteamProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.14-20.43.59:164][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.14-20.43.59:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documents/UnrealProjects/SteamProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.14-20.43.59:164][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.14-20.43.59:176][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.14-20.43.59:188][  0]LogDerivedDataCache: Using Local data cache path C:/Users/B/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.14-20.43.59:195][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.14-20.43.59:195][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.14-20.43.59:195][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.14-20.43.59:382][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.14-20.43.59:383][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.14-20.43.59:531][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.14-20.43.59:560][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.14-20.43.59:590][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.14-20.43.59:590][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.14-20.43.59:590][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.14-20.43.59:953][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: steamproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3119142434
+[2017.09.14-20.43.59:992][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2017.09.14-20.44.00:027][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.020012 seconds
+[2017.09.14-20.44.00:032][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.09.14-20.44.00:032][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.09.14-20.44.00:032][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.14-20.44.00:074][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.14-20.44.01:167][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.14-20.44.01:196][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.14-20.44.01:516][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.14-20.44.01:782][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.09.14-20.44.01:783][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.09.14-20.44.01:813][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.09.14-20.44.01:843][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.09.14-20.44.02:665][  0]LogEngine: Initializing Engine...
+[2017.09.14-20.44.02:665][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.14-20.44.02:747][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.14-20.44.02:747][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.14-20.44.02:828][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.14-20.44.02:848][  0]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.14-20.44.02:862][  0]LogInit: FAudioDevice initialized.
+[2017.09.14-20.44.02:883][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/B/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.09.14-20.44.02:889][  0]LogInit: Texture streaming: Enabled
+[2017.09.14-20.44.02:953][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.14-20.44.03:013][  0]LogInit: Transaction tracking system initialized
+[2017.09.14-20.44.03:243][  0]BlueprintLog: New page: Cargar el editor
+[2017.09.14-20.44.03:825][  0]LocalizationService: Información Localization service is disabled
+[2017.09.14-20.44.04:270][  0]LogConsoleResponse:Display: 
+[2017.09.14-20.44.04:368][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.14-20.44.04:368][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.14-20.44.05:040][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/UnrealProjects/SteamProject/Content/' took 0.01s
+[2017.09.14-20.44.05:040][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.09.14-20.44.05:040][  0]Cmd: MAP LOAD FILE="D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.14-20.44.05:069][  0]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-20.44.05:096][  0]MapCheck: New page: Revisión del mapa
+[2017.09.14-20.44.05:096][  0]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-20.44.06:615][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.14-20.44.06:647][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.14-20.44.06:648][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.14-20.44.06:682][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 33,8ms to complete.
+[2017.09.14-20.44.06:682][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.642
+[2017.09.14-20.44.06:867][  0]LogCollectionManager: Loaded 0 collections in 0.000978 seconds
+[2017.09.14-20.44.06:989][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/UnrealProjects/SteamProject/Saved/Collections/' took 0.01s
+[2017.09.14-20.44.06:989][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/UnrealProjects/SteamProject/Content/Developers/B/Collections/' took 0.01s
+[2017.09.14-20.44.06:989][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/UnrealProjects/SteamProject/Content/Collections/' took 0.01s
+[2017.09.14-20.44.06:989][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.09.14-20.44.07:025][  0]LogContentBrowser: Native class hierarchy populated in 0.0252 seconds. Added 2245 classes and 453 folders.
+[2017.09.14-20.44.07:101][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.14-20.44.07:383][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.14-20.44.07:421][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.14-20.44.07:488][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.14-20.44.07:502][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2017.09.14-20.44.07:553][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.14-20.44.07:553][  0]LogLoad: (Engine Initialization) Total time: 12.42 seconds
+[2017.09.14-20.44.07:553][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.09.14-20.44.07:553][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.14-20.44.07:553][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.14-20.44.07:564][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.14-20.44.07:564][  0]LogOcInput: OculusInput pre-init called
+[2017.09.14-20.44.07:590][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.14-20.44.07:591][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.14-20.44.07:594][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.14-20.44.07:604][  0]LogSlate: Took 0.004466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.14-20.44.07:756][  0]LogSlate: Took 0.004332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.14-20.44.07:793][  0]LogRenderer: Reallocating scene render targets to support 1136x576 NumSamples 1 (Frame:2).
+[2017.09.14-20.44.07:886][  1]LogAssetRegistry: Asset discovery search completed in 7.9159 seconds
+[2017.09.14-20.44.07:886][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.09.14-20.44.07:886][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.09.14-20.44.13:107][619]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.14-20.44.13:111][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.14-20.44.13:112][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.44.13:115][619]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (15/9/2017 0:44:13)
+[2017.09.14-20.44.13:116][619]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.14-20.44.13:136][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020074s)
+[2017.09.14-20.44.13:137][619]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.14-20.44.13:137][619]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2017.09.14-20.44.13:138][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021632s)
+[2017.09.14-20.44.13:165][619]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.14-20.44.13:168][619]LogInit: FAudioDevice initialized.
+[2017.09.14-20.44.13:242][619]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.09.14-20.44.13:248][619]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.14-22.44.13
+[2017.09.14-20.44.13:249][619]LogWorld: Bringing up level for play took: 0.002530
+[2017.09.14-20.44.13:285][619]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.09.14-20.44.13:287][619]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0,885
+[2017.09.14-20.44.13:288][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.14-20.46.04:081][910]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.14-20.46.04:124][910]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.14-20.46.16:039][337]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall7)
+[2017.09.14-20.49.44:652][651]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.14-20.55.41:328][740]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.14-20.57.10:340][744]LogMetaData: Removing '/Game/UI/AllLevels/GameInfoInstance.SKEL_GameInfoInstance_C' ref from Metadata '/Game/UI/AllLevels/NewBlueprint.PackageMetaData'
+[2017.09.14-20.57.10:340][744]LogMetaData: Removing '/Game/UI/AllLevels/GameInfoInstance.GameInfoInstance_C' ref from Metadata '/Game/UI/AllLevels/NewBlueprint.PackageMetaData'
+[2017.09.14-20.57.10:354][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/GameInfoInstance" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/GameInfoInstance.uasset" SILENT=true
+[2017.09.14-20.57.10:363][744]LogSavePackage: Save=6.96ms
+[2017.09.14-20.57.10:363][744]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/GameInfoInstanceEDB7835047DBBB700C18D4BD4FFE7144.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/GameInfoInstance.uasset'
+[2017.09.14-20.57.10:366][744]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/GameInfoInstance.uasset
+[2017.09.14-20.57.36:999][531]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.006
+[2017.09.14-20.57.37:000][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/NewBlueprint" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/AllLevels/NewBlueprint_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-20.57.37:004][531]LogSavePackage: Save=2.78ms
+[2017.09.14-20.57.37:004][531]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/NewBlueprint_Auto11825FF1D4022892C4DC4FDB07A978237.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/AllLevels/NewBlueprint_Auto1.uasset'
+[2017.09.14-20.57.37:005][531]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/AllLevels/NewBlueprint_Auto1.uasset
+[2017.09.14-20.57.37:005][531]LogFileHelpers: Auto-saving content packages took 0.005
+[2017.09.14-20.59.45:240][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/NewBlueprint" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/NewBlueprint.uasset" SILENT=true
+[2017.09.14-20.59.45:246][383]LogSavePackage: Save=3.80ms
+[2017.09.14-20.59.45:246][383]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/NewBlueprint4A68412D41338BAA4FB546A48913D978.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/NewBlueprint.uasset'
+[2017.09.14-20.59.45:247][383]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/NewBlueprint.uasset
+[2017.09.14-20.59.45:251][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/PlayerInfo" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/PlayerInfo.uasset" SILENT=true
+[2017.09.14-20.59.45:257][383]LogSavePackage: Save=4.81ms
+[2017.09.14-20.59.45:257][383]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/PlayerInfoA5768FF3494EBFC69EAF3CA0FE1FB182.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/PlayerInfo.uasset'
+[2017.09.14-20.59.45:258][383]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/PlayerInfo.uasset
+[2017.09.14-20.59.45:261][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/PlayerSaveGame" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/PlayerSaveGame.uasset" SILENT=true
+[2017.09.14-20.59.45:266][383]LogSavePackage: Save=3.75ms
+[2017.09.14-20.59.45:266][383]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/PlayerSaveGame0A5E7FDB4289ECFC4F126CB03F084767.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/PlayerSaveGame.uasset'
+[2017.09.14-20.59.45:268][383]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/PlayerSaveGame.uasset
+[2017.09.14-21.01.05:917][838]LogMetaData: Removing '/Game/Blueprints/Characters/0_Base.SKEL_0_Base_C' ref from Metadata '/Game/Blueprints/Characters/ThirdPersonCharacter.PackageMetaData'
+[2017.09.14-21.01.05:917][838]LogMetaData: Removing '/Game/Blueprints/Characters/0_Base.0_Base_C' ref from Metadata '/Game/Blueprints/Characters/ThirdPersonCharacter.PackageMetaData'
+[2017.09.14-21.01.05:935][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2017.09.14-21.01.05:969][838]LogSavePackage: Save=33.26ms
+[2017.09.14-21.01.05:969][838]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/0_Base1B305AB94A2B058075D364AB1EEA7A9E.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset'
+[2017.09.14-21.01.05:970][838]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset
+[2017.09.14-21.02.21:189][498]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.09.14-21.02.21:663][498]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.14-21.02.21:769][498]LogSlate: Took 0.003354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.14-21.02.21:950][499]LogSlate: Took 0.003314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.14-21.04.00:029][263]LogTexture:Display: Building textures: T_CharM_Base_N (BC5, 1024X1024) - 137 MB total VRAM
+[2017.09.14-21.04.00:107][263]LogTexture:Display: Building textures: T_CharM_Base_M (AutoDXT, 1024X1024) - 137 MB total VRAM
+[2017.09.14-21.04.00:203][263]LogTexture:Display: Building textures: T_CharM_Base_D (DXT1, 1024X1024) - 137 MB total VRAM
+[2017.09.14-21.04.00:431][263]LogMaterial: Missing cached shader map for material M_CharM_Base, compiling. 
+[2017.09.14-21.04.00:434][263]LogTemp:Display: Added material ShaderMap 0x000002BB0682AB00 with Material 0x000002BAA0511600 to ShaderMapsBeingCompiled
+[2017.09.14-21.04.00:469][263]LogTemp:Display: Kicking off shader compilation for M_CharM_Base, GameThreadShaderMap 0x000002BB0682AB00
+[2017.09.14-21.04.00:473][263]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
+[2017.09.14-21.04.00:473][263]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
+[2017.09.14-21.04.03:752][549]LogTemp:Display: Finished compile of shader map 0x000002BB0682AB00
+[2017.09.14-21.04.03:752][549]LogTemp:Display: Shader map M_CharM_Base complete, GameThreadShaderMap 0x000002BB0682AB00, marking material M_CharM_Base as finished
+[2017.09.14-21.04.03:752][549]LogTemp:Display: Marking material as finished 0x000002BAA0511600
+[2017.09.14-21.04.37:053][212]BlueprintLog: New page: Compilar 0_Base
+[2017.09.14-21.04.38:161][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2017.09.14-21.04.38:193][319]LogSavePackage: Save=27.26ms
+[2017.09.14-21.04.38:193][319]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/0_BaseCD7DEFB24922D142E3D40C9B453C14FD.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset'
+[2017.09.14-21.04.38:194][319]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset
+[2017.09.14-21.07.37:506][852]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.015
+[2017.09.14-21.07.37:514][852]LogSavePackage: Save=4.97ms
+[2017.09.14-21.07.37:514][852]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonCharacter_Auto2050F8B874F1BF8D75D884EAD92795797.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/ThirdPersonCharacter_Auto2.uasset'
+[2017.09.14-21.07.37:514][852]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/ThirdPersonCharacter_Auto2.uasset
+[2017.09.14-21.07.37:514][852]LogFileHelpers: Auto-saving content packages took 0.007
+[2017.09.14-22.29.26:848][324]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.010
+[2017.09.14-22.29.26:849][324]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Barbarous] ([1] browsable assets)...
+[2017.09.14-22.29.26:858][324]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Barbarous.Barbarous]
+[2017.09.14-22.29.26:858][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Barbarous]
+[2017.09.14-22.29.26:880][324]LogSavePackage: Save=21.17ms
+[2017.09.14-22.29.26:880][324]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Barbarous_Auto39AB8C72F4EDA21902CB9E1B4E94D6EFE.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Barbarous_Auto3.uasset'
+[2017.09.14-22.29.26:881][324]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Barbarous_Auto3.uasset
+[2017.09.14-22.29.26:881][324]LogFileHelpers: Auto-saving content packages took 0.032
+[2017.09.14-22.29.53:437][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Barbarous" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Barbarous.uasset" SILENT=true
+[2017.09.14-22.29.53:458][806]LogSavePackage: Save=19.97ms
+[2017.09.14-22.29.53:458][806]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/BarbarousC2EAD0F148761F6569E1EEB11C32875F.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Barbarous.uasset'
+[2017.09.14-22.29.53:460][806]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Barbarous.uasset
+[2017.09.14-22.29.53:467][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Forge" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Forge.uasset" SILENT=true
+[2017.09.14-22.29.53:484][806]LogSavePackage: Save=15.39ms
+[2017.09.14-22.29.53:484][806]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Forge1AE0ED924403AA6F4A5DB29D21BA0823.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Forge.uasset'
+[2017.09.14-22.29.53:485][806]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Forge.uasset
+[2017.09.14-22.29.53:488][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/ThirdPersonCharacter" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/ThirdPersonCharacter.uasset" SILENT=true
+[2017.09.14-22.29.53:492][806]LogSavePackage: Save=2.91ms
+[2017.09.14-22.29.53:492][806]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonCharacter22A3D04A4DD30117271F5A8496E49355.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/ThirdPersonCharacter.uasset'
+[2017.09.14-22.29.53:493][806]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/ThirdPersonCharacter.uasset
+[2017.09.14-22.30.38:947][910]Cmd: TRANSACTION UNDO
+[2017.09.14-22.30.38:947][910]LogEditorTransaction: Undo Editar Malla esqueleto
+[2017.09.14-22.30.40:523][ 90]Cmd: TRANSACTION UNDO
+[2017.09.14-22.30.40:523][ 90]LogEditorTransaction: Undo Añadir variable
+[2017.09.14-22.30.40:526][ 90]LogBlueprint:Error: [Compiler PlayerInfo] Error La estructura 'UserDefinedStruct /Game/UI/AllLevels/PlayerInfo.PlayerInfo' está vacía 
+[2017.09.14-22.30.40:529][ 90]LogBlueprint:Warning: [Compiler PlayerInfo] Aviso [6405,40] Compile of PlayerInfo failed. 1 Fatal Issue(s) 0 Warning(s) [in 4 ms] (/Game/UI/AllLevels/PlayerInfo.PlayerInfo)
+[2017.09.14-22.30.43:077][395]Cmd: TRANSACTION UNDO
+[2017.09.14-22.30.43:077][395]LogEditorTransaction: Undo Pinchar en los actores (menú contextual)
+[2017.09.14-22.30.58:830][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2017.09.14-22.30.58:863][931]LogSavePackage: Save=27.77ms
+[2017.09.14-22.30.58:863][931]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/0_Base88EBBF6B44454B4DD4675080AB64F448.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset'
+[2017.09.14-22.30.58:864][931]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset
+[2017.09.14-22.30.58:869][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Frosty" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Frosty.uasset" SILENT=true
+[2017.09.14-22.30.58:886][931]LogSavePackage: Save=15.36ms
+[2017.09.14-22.30.58:886][931]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/FrostyB9C092EF465828D25864C1A4657C0380.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Frosty.uasset'
+[2017.09.14-22.30.58:887][931]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Frosty.uasset
+[2017.09.14-22.30.58:889][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/PlayerInfo" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/PlayerInfo.uasset" SILENT=true
+[2017.09.14-22.30.58:893][931]LogSavePackage: Save=2.80ms
+[2017.09.14-22.30.58:893][931]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/PlayerInfoB740FB1B4DD4CF30FCA911BBC7988608.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/PlayerInfo.uasset'
+[2017.09.14-22.30.58:894][931]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/PlayerInfo.uasset
+[2017.09.14-22.32.11:695][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Natural" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Natural.uasset" SILENT=true
+[2017.09.14-22.32.11:712][947]LogSavePackage: Save=15.48ms
+[2017.09.14-22.32.11:712][947]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Natural52A5EC2B4AB33D09FB4C18BFBDCD3E93.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Natural.uasset'
+[2017.09.14-22.32.11:713][947]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Natural.uasset
+[2017.09.14-22.32.11:719][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Pit" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Pit.uasset" SILENT=true
+[2017.09.14-22.32.11:736][947]LogSavePackage: Save=15.46ms
+[2017.09.14-22.32.11:736][947]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Pit4FD9AA5043203CF8F5C519B49D977975.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Pit.uasset'
+[2017.09.14-22.32.11:737][947]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Pit.uasset
+[2017.09.14-22.32.11:744][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Robo" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Robo.uasset" SILENT=true
+[2017.09.14-22.32.11:761][947]LogSavePackage: Save=15.65ms
+[2017.09.14-22.32.11:761][947]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Robo71AA3A1E44A0842109D25FA4E4BC1A58.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Robo.uasset'
+[2017.09.14-22.32.11:762][947]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Robo.uasset
+[2017.09.14-22.32.11:769][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Tusk" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Tusk.uasset" SILENT=true
+[2017.09.14-22.32.11:785][947]LogSavePackage: Save=15.27ms
+[2017.09.14-22.32.11:785][947]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Tusk265E8C7A4385D9305D1AF3AA6516577B.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Tusk.uasset'
+[2017.09.14-22.32.11:786][947]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Tusk.uasset
+[2017.09.14-22.32.11:794][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Warrior" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Warrior.uasset" SILENT=true
+[2017.09.14-22.32.11:810][947]LogSavePackage: Save=15.41ms
+[2017.09.14-22.32.11:810][947]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Warrior47164C7D4B3E0C4221EED6A5E3BEC272.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Warrior.uasset'
+[2017.09.14-22.32.11:811][947]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Warrior.uasset
+[2017.09.14-22.34.28:833][311]LogMetaData: Removing '/Game/Blueprints/Lobby/LobbyGM.SKEL_LobbyGM_C' ref from Metadata '/Game/Blueprints/Lobby/GameplayGM.PackageMetaData'
+[2017.09.14-22.34.28:833][311]LogMetaData: Removing '/Game/Blueprints/Lobby/LobbyGM.LobbyGM_C' ref from Metadata '/Game/Blueprints/Lobby/GameplayGM.PackageMetaData'
+[2017.09.14-22.34.28:844][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2017.09.14-22.34.28:854][311]LogSavePackage: Save=8.75ms
+[2017.09.14-22.34.28:854][311]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyGM2989950A492479A9B13C7AAB22710E00.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2017.09.14-22.34.28:855][311]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset
+[2017.09.14-22.34.45:298][799]LogMetaData: Removing '/Game/Blueprints/Lobby/LobbyPC.SKEL_LobbyPC_C' ref from Metadata '/Game/Blueprints/Lobby/GameplayPC.PackageMetaData'
+[2017.09.14-22.34.45:298][799]LogMetaData: Removing '/Game/Blueprints/Lobby/LobbyPC.LobbyPC_C' ref from Metadata '/Game/Blueprints/Lobby/GameplayPC.PackageMetaData'
+[2017.09.14-22.34.45:309][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.14-22.34.45:317][799]LogSavePackage: Save=7.51ms
+[2017.09.14-22.34.45:317][799]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC7F8E77A043821947F28200B7AB08AB08.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.14-22.34.45:318][799]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.14-22.34.48:584][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayGM" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Gameplay/GameplayGM.uasset" SILENT=true
+[2017.09.14-22.34.48:593][ 37]LogSavePackage: Save=8.13ms
+[2017.09.14-22.34.48:593][ 37]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/GameplayGM3AD3866A47FB5EB9930BD0818FA5FE0C.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Gameplay/GameplayGM.uasset'
+[2017.09.14-22.34.48:594][ 37]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Gameplay/GameplayGM.uasset
+[2017.09.14-22.34.48:596][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Gameplay/GameplayPC.uasset" SILENT=true
+[2017.09.14-22.34.48:605][ 37]LogSavePackage: Save=7.85ms
+[2017.09.14-22.34.48:605][ 37]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/GameplayPCB8A4653B4E168AB12D7CA495C1FA100E.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Gameplay/GameplayPC.uasset'
+[2017.09.14-22.34.48:606][ 37]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Gameplay/GameplayPC.uasset
+[2017.09.14-22.34.48:608][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/GameplayGM" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/GameplayGM.uasset" SILENT=true
+[2017.09.14-22.34.48:611][ 37]LogSavePackage: Save=2.78ms
+[2017.09.14-22.34.48:611][ 37]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/GameplayGM87BBA14C4910789E873D4EBB603FEE7A.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/GameplayGM.uasset'
+[2017.09.14-22.34.48:612][ 37]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/GameplayGM.uasset
+[2017.09.14-22.34.48:614][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/GameplayPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/GameplayPC.uasset" SILENT=true
+[2017.09.14-22.34.48:620][ 37]LogSavePackage: Save=5.49ms
+[2017.09.14-22.34.48:620][ 37]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/GameplayPC157CC46F4D94753C4AAA179781C74B20.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/GameplayPC.uasset'
+[2017.09.14-22.34.48:622][ 37]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/GameplayPC.uasset
+[2017.09.14-22.35.49:123][587]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.09.14-22.36.46:006][412]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.09.14-22.37.16:324][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.37.17:579][781]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.09.14-22.37.18:816][911]Cmd: DELETE
+[2017.09.14-22.37.18:816][911]Cmd: ACTOR DELETE
+[2017.09.14-22.37.18:820][911]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2017.09.14-22.37.18:860][911]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2017.09.14-22.37.20:925][159]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.09.14-22.38.29:188][ 65]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.38.32:993][521]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.38.34:171][662]Cmd: TRANSACTION UNDO
+[2017.09.14-22.38.34:171][662]LogEditorTransaction: Undo Move Actors
+[2017.09.14-22.38.37:417][ 50]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.38.38:303][156]Cmd: TRANSACTION UNDO
+[2017.09.14-22.38.38:303][156]LogEditorTransaction: Undo Move Actors
+[2017.09.14-22.38.43:254][748]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.38.44:125][852]Cmd: TRANSACTION UNDO
+[2017.09.14-22.38.44:125][852]LogEditorTransaction: Undo Move Actors
+[2017.09.14-22.39.18:199][633]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.14-22.39.20:060][847]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.14-22.39.39:868][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.39.41:049][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.39.41:504][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.39.42:193][496]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.09.14-22.39.45:732][915]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.39.47:049][ 70]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.39.50:316][461]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Bump_StaticMesh)
+[2017.09.14-22.39.56:930][245]Cmd: TRANSACTION UNDO
+[2017.09.14-22.39.56:930][245]LogEditorTransaction: Undo Pinchar en los actores (menú contextual)
+[2017.09.14-22.39.57:766][341]Cmd: TRANSACTION UNDO
+[2017.09.14-22.39.57:766][341]LogEditorTransaction: Undo Move Actors
+[2017.09.14-22.40.03:454][ 20]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.05:581][274]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.09:587][751]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.10:740][888]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.14:082][286]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.14:851][377]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.17:452][686]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.27:963][938]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.27:963][938]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.27:963][938]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.27:964][938]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.33:388][587]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.09.14-22.40.36:816][995]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.37:836][117]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart2)
+[2017.09.14-22.40.39:430][305]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.40:609][446]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart4)
+[2017.09.14-22.40.42:160][629]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.43:381][775]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart3)
+[2017.09.14-22.40.44:439][899]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.45:526][ 29]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.40.47:171][226]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.09.14-22.41.24:553][684]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.24:553][684]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.24:554][684]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.24:554][684]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.27:482][ 32]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.27:482][ 32]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.27:482][ 32]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.27:482][ 32]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.34:066][815]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (NetworkPlayerStart8)
+[2017.09.14-22.41.34:863][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2017.09.14-22.41.36:313][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.41.37:566][221]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart8)
+[2017.09.14-22.41.41:342][670]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.42:237][777]Cmd: TRANSACTION UNDO
+[2017.09.14-22.41.42:237][777]LogEditorTransaction: Undo Move Actors
+[2017.09.14-22.41.43:925][978]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.45:355][149]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.46:876][331]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.48:306][502]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart7)
+[2017.09.14-22.41.49:399][630]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.52:219][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.41.53:193][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.41.53:899][163]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart4)
+[2017.09.14-22.41.54:933][283]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.56:037][415]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.41.58:699][734]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.09.14-22.41.59:892][874]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.03:208][271]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.04:882][471]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart6)
+[2017.09.14-22.42.06:393][649]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.07:417][771]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart5)
+[2017.09.14-22.42.08:787][932]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.10:317][115]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.12:523][379]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.13:796][531]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart7)
+[2017.09.14-22.42.14:689][635]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.15:809][769]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart8)
+[2017.09.14-22.42.17:160][928]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.18:531][ 92]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart3)
+[2017.09.14-22.42.21:747][472]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.21:747][472]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.23:726][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.42.24:677][817]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart3)
+[2017.09.14-22.42.25:845][953]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.27:241][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.42.28:583][275]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart2)
+[2017.09.14-22.42.29:585][391]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.31:255][591]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart4)
+[2017.09.14-22.42.32:356][720]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.34:204][941]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.35:309][ 73]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.09.14-22.42.37:646][350]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.42.38:850][494]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.14-22.43.07:236][989]LogSavePackage: Save=100.06ms
+[2017.09.14-22.43.07:236][989]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonExampleMap_Auto41D73D9F64C9342B86A38C2A1012B4376.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2017.09.14-22.43.07:236][989]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2017.09.14-22.43.07:240][989]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.132
+[2017.09.14-22.43.07:240][989]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.132
+[2017.09.14-22.44.16:358][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.44.30:108][610]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Arena01, Actor: /Game/Maps/Arena01.Arena01:PersistentLevel.ThirdPersonExampleMap_C_0
+[2017.09.14-22.44.30:161][610]LogAIModule: Creating AISystem for world Arena01
+[2017.09.14-22.44.30:166][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena01" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.14-22.44.30:181][610]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Arena01, Actor: /Game/Maps/Arena01.Arena01:PersistentLevel.Arena01_C_0
+[2017.09.14-22.44.30:270][610]LogSavePackage: Save=89.64ms
+[2017.09.14-22.44.30:270][610]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Arena01037A15554B4D8E81D090A7A94686AF09.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena01.umap'
+[2017.09.14-22.44.30:271][610]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena01.umap
+[2017.09.14-22.44.30:276][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena01_BuiltData" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena01_BuiltData.uasset" SILENT=true
+[2017.09.14-22.44.30:375][610]LogSavePackage: Save=97.77ms
+[2017.09.14-22.44.30:375][610]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Arena01_BuiltData43C7CB514DD846D39C4857B1D86F8077.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena01_BuiltData.uasset'
+[2017.09.14-22.44.30:375][610]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena01_BuiltData.uasset
+[2017.09.14-22.44.30:379][610]LogFileHelpers: Saving map 'Arena01' took 0.709
+[2017.09.14-22.44.30:381][610]Cmd: MAP LOAD FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.14-22.44.30:388][610]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.44.30:389][610]LoadErrors: New page: Cargando mapa: Arena01.umap
+[2017.09.14-22.44.30:390][610]MapCheck: New page: Revisión del mapa
+[2017.09.14-22.44.30:390][610]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.44.30:406][610]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.14-22.44.30:423][610]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.14-22.44.30:455][610]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 32,443ms to complete.
+[2017.09.14-22.44.30:455][610]LogFileHelpers: Loading map 'Arena01' took 0.077
+[2017.09.14-22.44.35:304][187]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.14-22.44.37:035][387]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.14-22.45.51:761][449]Cmd: TRANSACTION UNDO
+[2017.09.14-22.45.51:761][449]LogEditorTransaction: Undo Pinchar en los actores (menú contextual)
+[2017.09.14-22.45.57:706][160]Cmd: TRANSACTION UNDO
+[2017.09.14-22.45.57:706][160]LogEditorTransaction: Undo Pinchar en los actores (menú contextual)
+[2017.09.14-22.46.03:487][853]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.46.04:354][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.46.05:079][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.46.05:802][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.46.11:918][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.46.12:277][893]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.09.14-22.46.12:656][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.14-22.46.13:829][ 69]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.09.14-22.47.19:980][810]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Arena02, Actor: /Game/Maps/Arena02.Arena02:PersistentLevel.Arena01_C_1
+[2017.09.14-22.47.20:033][810]LogAIModule: Creating AISystem for world Arena02
+[2017.09.14-22.47.20:039][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena02" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.14-22.47.20:053][810]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Arena02, Actor: /Game/Maps/Arena02.Arena02:PersistentLevel.Arena02_C_0
+[2017.09.14-22.47.20:143][810]LogSavePackage: Save=90.53ms
+[2017.09.14-22.47.20:143][810]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Arena02D7B73DC54CE39465707C009CC8683CEE.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena02.umap'
+[2017.09.14-22.47.20:144][810]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena02.umap
+[2017.09.14-22.47.20:149][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena02_BuiltData" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena02_BuiltData.uasset" SILENT=true
+[2017.09.14-22.47.20:249][810]LogSavePackage: Save=98.46ms
+[2017.09.14-22.47.20:249][810]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Arena02_BuiltData7D8950154645EFABCBB6E9BA081140B6.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena02_BuiltData.uasset'
+[2017.09.14-22.47.20:249][810]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena02_BuiltData.uasset
+[2017.09.14-22.47.20:253][810]LogFileHelpers: Saving map 'Arena02' took 0.621
+[2017.09.14-22.47.20:254][810]Cmd: MAP LOAD FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.14-22.47.20:260][810]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.47.20:261][810]LoadErrors: New page: Cargando mapa: Arena02.umap
+[2017.09.14-22.47.20:261][810]MapCheck: New page: Revisión del mapa
+[2017.09.14-22.47.20:261][810]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.47.20:279][810]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.14-22.47.20:293][810]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.14-22.47.20:327][810]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 33,764ms to complete.
+[2017.09.14-22.47.20:327][810]LogFileHelpers: Loading map 'Arena02' took 0.074
+[2017.09.14-22.48.34:561][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena02" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.14-22.48.34:670][155]LogSavePackage: Save=90.09ms
+[2017.09.14-22.48.34:670][155]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Arena02BB884A5C4A81B446A8E057B70903EFB3.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena02.umap'
+[2017.09.14-22.48.34:671][155]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Maps/Arena02.umap
+[2017.09.14-22.48.34:679][155]LogFileHelpers: Saving map 'Arena02' took 0.151
+[2017.09.14-22.48.34:683][155]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.14-22.48.34:688][155]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.48.34:689][155]LoadErrors: New page: Cargando mapa: Template_Default.umap
+[2017.09.14-22.48.34:690][155]MapCheck: New page: Revisión del mapa
+[2017.09.14-22.48.34:690][155]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.48.34:710][155]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.14-22.48.34:712][155]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.09.14-22.48.34:713][155]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.14-22.48.34:719][155]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.14-22.48.34:751][155]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 32,657ms to complete.
+[2017.09.14-22.48.34:751][155]LogFileHelpers: Loading map 'Template_Default' took 0.069
+[2017.09.14-22.48.48:788][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.14-22.48.48:819][149]LogSavePackage: Save=19.37ms
+[2017.09.14-22.48.48:819][149]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Lobby24A347DE4684578495DF73BA4661D1E9.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Maps/Lobby.umap'
+[2017.09.14-22.48.48:820][149]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Maps/Lobby.umap
+[2017.09.14-22.48.48:838][149]LogFileHelpers: Saving map 'Lobby' took 0.435
+[2017.09.14-22.48.48:838][149]Cmd: MAP LOAD FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.14-22.48.48:844][149]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.48.48:845][149]LoadErrors: New page: Cargando mapa: Lobby.umap
+[2017.09.14-22.48.48:846][149]MapCheck: New page: Revisión del mapa
+[2017.09.14-22.48.48:846][149]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.48.48:875][149]LogAIModule: Creating AISystem for world Lobby
+[2017.09.14-22.48.48:885][149]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.14-22.48.48:900][149]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.14-22.48.48:933][149]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 32,456ms to complete.
+[2017.09.14-22.48.48:933][149]LogFileHelpers: Loading map 'Lobby' took 0.095
+[2017.09.14-22.49.14:123][829]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.49.14:123][829]MapCheck: New page: Revisión del mapa
+[2017.09.14-22.49.14:123][829]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.49.14:136][829]LogAIModule: Creating AISystem for world Untitled
+[2017.09.14-22.49.14:138][829]LoadErrors: New page: Mapa nuevo
+[2017.09.14-22.49.32:500][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TravelMap" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/TravelMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.14-22.49.32:518][820]LogSavePackage: Save=7.46ms
+[2017.09.14-22.49.32:518][820]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/TravelMap32981EF94E4428BDCEB16C954DEE9B2D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Maps/TravelMap.umap'
+[2017.09.14-22.49.32:519][820]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Maps/TravelMap.umap
+[2017.09.14-22.49.32:530][820]LogFileHelpers: Saving map 'TravelMap' took 0.074
+[2017.09.14-22.49.32:531][820]Cmd: MAP LOAD FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/TravelMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.14-22.49.32:537][820]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.49.32:538][820]LoadErrors: New page: Cargando mapa: TravelMap.umap
+[2017.09.14-22.49.32:539][820]MapCheck: New page: Revisión del mapa
+[2017.09.14-22.49.32:539][820]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.49.32:554][820]LogAIModule: Creating AISystem for world TravelMap
+[2017.09.14-22.49.32:556][820]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.14-22.49.32:569][820]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.14-22.49.32:602][820]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 33,129ms to complete.
+[2017.09.14-22.49.32:602][820]LogFileHelpers: Loading map 'TravelMap' took 0.072
+[2017.09.14-22.50.06:063][638]LogAIModule: Creating AISystem for world MainMenu
+[2017.09.14-22.50.06:065][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.14-22.50.06:083][638]LogSavePackage: Save=8.07ms
+[2017.09.14-22.50.06:083][638]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/MainMenuE5AD3CBB4504BC681E341588E1D2EC55.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Maps/MainMenu.umap'
+[2017.09.14-22.50.06:085][638]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Maps/MainMenu.umap
+[2017.09.14-22.50.06:088][638]LogFileHelpers: Saving map 'MainMenu' took 0.070
+[2017.09.14-22.50.06:089][638]Cmd: MAP LOAD FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.14-22.50.06:095][638]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.50.06:096][638]LoadErrors: New page: Cargando mapa: MainMenu.umap
+[2017.09.14-22.50.06:096][638]MapCheck: New page: Revisión del mapa
+[2017.09.14-22.50.06:096][638]LightingResults: New page: Diseñar la iluminación
+[2017.09.14-22.50.06:111][638]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.14-22.50.06:125][638]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.14-22.50.06:158][638]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 33,286ms to complete.
+[2017.09.14-22.50.06:158][638]LogFileHelpers: Loading map 'MainMenu' took 0.069
+[2017.09.14-22.51.43:525][292]LogMetaData: Removing '/Game/Blueprints/AllLevels/GameInfoInstance.GameInfoInstance_C' ref from Metadata '/Game/UI/AllLevels/GameInfoInstance.PackageMetaData'
+[2017.09.14-22.51.43:525][292]LogMetaData: Removing '/Game/Blueprints/AllLevels/GameInfoInstance.SKEL_GameInfoInstance_C' ref from Metadata '/Game/UI/AllLevels/GameInfoInstance.PackageMetaData'
+[2017.09.14-22.51.43:528][292]LogMetaData: Removing '/Game/Blueprints/AllLevels/PlayerInfo.PlayerInfo' ref from Metadata '/Game/UI/AllLevels/PlayerInfo.PackageMetaData'
+[2017.09.14-22.51.43:530][292]LogMetaData: Removing '/Game/Blueprints/AllLevels/PlayerSaveGame.SKEL_PlayerSaveGame_C' ref from Metadata '/Game/UI/AllLevels/PlayerSaveGame.PackageMetaData'
+[2017.09.14-22.51.43:530][292]LogMetaData: Removing '/Game/Blueprints/AllLevels/PlayerSaveGame.PlayerSaveGame_C' ref from Metadata '/Game/UI/AllLevels/PlayerSaveGame.PackageMetaData'
+[2017.09.14-22.51.43:540][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AllLevels/GameInfoInstance" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/AllLevels/GameInfoInstance.uasset" SILENT=true
+[2017.09.14-22.51.43:545][292]LogSavePackage: Save=3.96ms
+[2017.09.14-22.51.43:545][292]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/GameInfoInstanceC9DD932C4743380AE391C4AE1174461D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/AllLevels/GameInfoInstance.uasset'
+[2017.09.14-22.51.43:546][292]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/AllLevels/GameInfoInstance.uasset
+[2017.09.14-22.51.43:548][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AllLevels/PlayerInfo" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/AllLevels/PlayerInfo.uasset" SILENT=true
+[2017.09.14-22.51.43:552][292]LogSavePackage: Save=3.16ms
+[2017.09.14-22.51.43:552][292]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/PlayerInfo8E71A6C943F6E0D8DE31808686903EFE.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/AllLevels/PlayerInfo.uasset'
+[2017.09.14-22.51.43:553][292]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/AllLevels/PlayerInfo.uasset
+[2017.09.14-22.51.43:555][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AllLevels/PlayerSaveGame" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/AllLevels/PlayerSaveGame.uasset" SILENT=true
+[2017.09.14-22.51.43:559][292]LogSavePackage: Save=3.72ms
+[2017.09.14-22.51.43:559][292]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/PlayerSaveGame68E1955C41C524A646E51AA6D09D5B90.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/AllLevels/PlayerSaveGame.uasset'
+[2017.09.14-22.51.43:560][292]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/AllLevels/PlayerSaveGame.uasset
+[2017.09.14-22.53.55:574][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/ChatText" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/ChatText.uasset" SILENT=true
+[2017.09.14-22.53.55:586][780]LogSavePackage: Save=10.17ms
+[2017.09.14-22.53.55:586][780]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ChatText9D50C2C043B19BF7E5095C891224E852.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/ChatText.uasset'
+[2017.09.14-22.53.55:587][780]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/ChatText.uasset
+[2017.09.14-22.53.55:589][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/ChatWindow" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/ChatWindow.uasset" SILENT=true
+[2017.09.14-22.53.55:596][780]LogSavePackage: Save=5.94ms
+[2017.09.14-22.53.55:596][780]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ChatWindowB26B05484EEC5622BE86E39602D8FB30.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/ChatWindow.uasset'
+[2017.09.14-22.53.55:597][780]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/ChatWindow.uasset
+[2017.09.14-22.53.55:599][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/GameplayChat" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/GameplayChat.uasset" SILENT=true
+[2017.09.14-22.53.55:606][780]LogSavePackage: Save=5.41ms
+[2017.09.14-22.53.55:606][780]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/GameplayChatCDA300C44CF6451958F29EA11116216C.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/GameplayChat.uasset'
+[2017.09.14-22.53.55:607][780]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/GameplayChat.uasset
+[2017.09.14-22.53.55:609][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/LoadingScreen" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/LoadingScreen.uasset" SILENT=true
+[2017.09.14-22.53.55:616][780]LogSavePackage: Save=5.59ms
+[2017.09.14-22.53.55:616][780]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LoadingScreen36A707574017E999EE9201A89DBAE686.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/LoadingScreen.uasset'
+[2017.09.14-22.53.55:617][780]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/AllLevels/LoadingScreen.uasset
+[2017.09.14-22.55.52:546][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/CharacterSelect" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/CharacterSelect.uasset" SILENT=true
+[2017.09.14-22.55.52:553][298]LogSavePackage: Save=5.69ms
+[2017.09.14-22.55.52:553][298]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/CharacterSelect72EFAA7E46F79746748C9A9CA9F696A6.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/CharacterSelect.uasset'
+[2017.09.14-22.55.52:554][298]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/CharacterSelect.uasset
+[2017.09.14-22.55.52:556][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2017.09.14-22.55.52:563][298]LogSavePackage: Save=5.81ms
+[2017.09.14-22.55.52:563][298]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ConnectedPlayer0A0E028E4403B31E8EADC9B2E3FCED24.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2017.09.14-22.55.52:564][298]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/ConnectedPlayer.uasset
+[2017.09.14-22.55.52:566][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/GameSettings" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/GameSettings.uasset" SILENT=true
+[2017.09.14-22.55.52:573][298]LogSavePackage: Save=5.44ms
+[2017.09.14-22.55.52:573][298]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/GameSettings9D62CF4D4F82880C48ED40AAB66665B0.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/GameSettings.uasset'
+[2017.09.14-22.55.52:574][298]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/GameSettings.uasset
+[2017.09.14-22.55.52:576][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.14-22.55.52:583][298]LogSavePackage: Save=5.62ms
+[2017.09.14-22.55.52:583][298]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu17EA1D68475D127C5EB831885F5B6A9A.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.14-22.55.52:584][298]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.14-22.55.52:587][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/PlayerButton" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/PlayerButton.uasset" SILENT=true
+[2017.09.14-22.55.52:594][298]LogSavePackage: Save=5.48ms
+[2017.09.14-22.55.52:594][298]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/PlayerButtonFB5BE6EA4192268F9A52318D41D7FFE2.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/PlayerButton.uasset'
+[2017.09.14-22.55.52:595][298]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/PlayerButton.uasset
+[2017.09.14-22.57.52:123][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/ErrorDialog" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/ErrorDialog.uasset" SILENT=true
+[2017.09.14-22.57.52:131][786]LogSavePackage: Save=5.75ms
+[2017.09.14-22.57.52:131][786]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ErrorDialog30DBCBAD431B29FE2EA2DB8145A98147.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/ErrorDialog.uasset'
+[2017.09.14-22.57.52:131][786]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/ErrorDialog.uasset
+[2017.09.14-22.57.52:133][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/HostMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/HostMenu.uasset" SILENT=true
+[2017.09.14-22.57.52:141][786]LogSavePackage: Save=5.69ms
+[2017.09.14-22.57.52:141][786]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/HostMenu4F5F03AE4604F1CA864E84AE35EDBDA9.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/HostMenu.uasset'
+[2017.09.14-22.57.52:142][786]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/HostMenu.uasset
+[2017.09.14-22.57.52:144][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/MainMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/MainMenu.uasset" SILENT=true
+[2017.09.14-22.57.52:150][786]LogSavePackage: Save=5.41ms
+[2017.09.14-22.57.52:150][786]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/MainMenu0DA994004EFAB6F29DAF618C1417DBED.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/MainMenu.uasset'
+[2017.09.14-22.57.52:151][786]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/MainMenu.uasset
+[2017.09.14-22.57.52:154][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/OptionsMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/OptionsMenu.uasset" SILENT=true
+[2017.09.14-22.57.52:161][786]LogSavePackage: Save=5.78ms
+[2017.09.14-22.57.52:161][786]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/OptionsMenu8711D54B4636D53604BB1F9B7FB1E9A3.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/OptionsMenu.uasset'
+[2017.09.14-22.57.52:162][786]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/OptionsMenu.uasset
+[2017.09.14-22.57.52:164][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/ServerMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/ServerMenu.uasset" SILENT=true
+[2017.09.14-22.57.52:170][786]LogSavePackage: Save=5.48ms
+[2017.09.14-22.57.52:170][786]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ServerMenu5C1E93BB4945846BA641A287F78101CA.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/ServerMenu.uasset'
+[2017.09.14-22.57.52:171][786]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/MainMenu/ServerMenu.uasset
+[2017.09.14-22.59.03:470][735]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.09.14-22.59.03:527][737]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SteamProject
+
+[2017.09.14-22.59.03:527][737]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.09.14-22.59.03:527][737]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.09.14-22.59.03:527][737]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.09.14-22.59.03:527][737]LogTemp:Display: BranchPath = DESKTOP-N45ODSG/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-N45ODSG/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.09.14-22.59.03:565][737]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\B\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.09.14-22.59.03:565][737]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.09.14-22.59.03:565][737]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.09.14-22.59.03:565][737]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.09.14-22.59.03:565][737]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.09.14-22.59.03:565][737]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
+
+[2017.09.14-23.01.09:143][259]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.14-23.02.40:896][757]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.09.14-23.02.41:029][757]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.09.14-23.02.41:078][757]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.09.14-23.05.11:809][893]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.012
+[2017.09.14-23.05.11:810][893]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2017.09.14-23.05.11:810][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton]
+[2017.09.14-23.05.11:819][893]LogSavePackage: Save=4.28ms
+[2017.09.14-23.05.11:819][893]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/UE4_Mannequin_Skeleton_Auto5F846AD1C475A1D176866909E2B9214CE.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto5.uasset'
+[2017.09.14-23.05.11:819][893]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto5.uasset
+[2017.09.14-23.05.11:819][893]LogFileHelpers: Auto-saving content packages took 0.010
+[2017.09.14-23.05.27:587][759]LogSavePackage: Save=4.16ms
+[2017.09.14-23.05.27:587][759]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/UE4_Mannequin_SkeletonDFFF603B40467FCA1E8DCD84607B73F6.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.14-23.05.27:588][759]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.14-23.06.15:848][651]LogTexture:Display: Building textures: T_CharM_WarriorB_Mask (AutoDXT, 2048X2048) - 121 MB total VRAM
+[2017.09.14-23.06.16:276][651]LogTexture:Display: Building textures: T_CharM_Warrior_N (BC5, 2048X2048) - 121 MB total VRAM
+[2017.09.14-23.06.16:773][651]LogTexture:Display: Building textures: T_CharM_WarriorB_D (DXT1, 2048X2048) - 121 MB total VRAM
+[2017.09.14-23.06.17:956][651]LogTexture:Display: Building textures: T_CharM_Warrior_JewelMask (AutoDXT, 2048X2048) - 121 MB total VRAM
+[2017.09.14-23.06.18:175][651]LogMaterial: Missing cached shader map for material M_Char_Warrior_B, compiling. 
+[2017.09.14-23.06.18:176][651]LogTemp:Display: Added material ShaderMap 0x000002BAC85B8F00 with Material 0x000002BAFEFE8280 to ShaderMapsBeingCompiled
+[2017.09.14-23.06.18:198][651]LogTemp:Display: Kicking off shader compilation for M_Char_Warrior_B, GameThreadShaderMap 0x000002BAC85B8F00
+[2017.09.14-23.06.18:209][651]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.09.14-23.06.21:771][997]LogTemp:Display: Finished compile of shader map 0x000002BAC85B8F00
+[2017.09.14-23.06.21:771][997]LogTemp:Display: Shader map M_Char_Warrior_B complete, GameThreadShaderMap 0x000002BAC85B8F00, marking material M_Char_Warrior_B as finished
+[2017.09.14-23.06.21:771][997]LogTemp:Display: Marking material as finished 0x000002BAFEFE8280
+[2017.09.14-23.06.45:109][440]LogSavePackage: Save=4.09ms
+[2017.09.14-23.06.45:109][440]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/SK_Mannequin_Skeleton4063AC9A45EB2B6F6B4C1299DA3E6B40.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset'
+[2017.09.14-23.06.45:110][440]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset
+[2017.09.14-23.07.12:911][ 79]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.09.14-23.08.22:415][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPerson_Jump.ThirdPerson_Jump
+[2017.09.14-23.08.22:427][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPerson_Jump.ThirdPerson_Jump
+[2017.09.14-23.08.22:439][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2017.09.14-23.08.22:457][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2017.09.14-23.08.22:479][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2017.09.14-23.08.22:492][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2017.09.14-23.08.22:509][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonIdle.ThirdPersonIdle
+[2017.09.14-23.08.22:599][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonWalk.ThirdPersonWalk
+[2017.09.14-23.08.22:630][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonRun.ThirdPersonRun
+[2017.09.14-23.08.22:647][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonIdle.ThirdPersonIdle
+[2017.09.14-23.08.22:733][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonWalk.ThirdPersonWalk
+[2017.09.14-23.08.22:761][676]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonRun.ThirdPersonRun
+[2017.09.14-23.08.22:958][677]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
+[2017.09.14-23.09.52:090][594]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.09.52:090][594]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.09.52:090][594]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.09.52:090][594]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.09.52:090][594]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.09.52:090][594]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.09.52:090][594]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.09.52:090][594]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.09.52:090][594]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.09.52:090][594]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.09.52:164][594]LogSavePackage: Save=31.38ms
+[2017.09.14-23.09.52:164][594]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPerson_AnimBPBF295441417B079C037309BDE27FDDF4.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.uasset'
+[2017.09.14-23.09.52:165][594]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.uasset
+[2017.09.14-23.09.52:188][594]LogSavePackage: Save=10.22ms
+[2017.09.14-23.09.52:188][594]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPerson_IdleRun_2DCB44D3C941C8CC7F4858E1A04498FD75.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPerson_IdleRun_2D.uasset'
+[2017.09.14-23.09.52:189][594]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPerson_IdleRun_2D.uasset
+[2017.09.14-23.09.52:213][594]LogSavePackage: Save=11.21ms
+[2017.09.14-23.09.52:213][594]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPerson_Jump8CDBBC9F4682F71A9A0180A1D2D08CD1.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPerson_Jump.uasset'
+[2017.09.14-23.09.52:214][594]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPerson_Jump.uasset
+[2017.09.14-23.09.52:237][594]LogSavePackage: Save=11.95ms
+[2017.09.14-23.09.52:237][594]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonIdleCA23FF64429E4411DCDDD2B0E69BDB93.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPersonIdle.uasset'
+[2017.09.14-23.09.52:238][594]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPersonIdle.uasset
+[2017.09.14-23.09.52:262][594]LogSavePackage: Save=11.62ms
+[2017.09.14-23.09.52:262][594]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonJump_Loop00E79D5D4376735D6942A29204135765.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPersonJump_Loop.uasset'
+[2017.09.14-23.09.52:263][594]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPersonJump_Loop.uasset
+[2017.09.14-23.09.52:287][594]LogSavePackage: Save=11.39ms
+[2017.09.14-23.09.52:287][594]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonJump_Start3099C59C47552DEFF34CB683D65AFA63.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPersonJump_Start.uasset'
+[2017.09.14-23.09.52:288][594]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPersonJump_Start.uasset
+[2017.09.14-23.09.52:312][594]LogSavePackage: Save=11.46ms
+[2017.09.14-23.09.52:312][594]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonRun207CA2054C23DFF94BFB418EC9011893.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPersonRun.uasset'
+[2017.09.14-23.09.52:313][594]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPersonRun.uasset
+[2017.09.14-23.09.52:337][594]LogSavePackage: Save=11.69ms
+[2017.09.14-23.09.52:337][594]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonWalkA6A7B4874DE337205B88EEA7A214DE30.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPersonWalk.uasset'
+[2017.09.14-23.09.52:338][594]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/ThirdPersonWalk.uasset
+[2017.09.14-23.10.43:434][257]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP.0_BaseAnimBP_C' ref from Metadata '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.10.43:434][257]LogMetaData: Removing '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP.SKEL_0_BaseAnimBP_C' ref from Metadata '/Game/InfinityBladeWarriors/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.14-23.10.43:460][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP" FILE="D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/0_BaseAnimBP.uasset" SILENT=true
+[2017.09.14-23.10.43:492][257]LogSavePackage: Save=30.70ms
+[2017.09.14-23.10.43:492][257]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/0_BaseAnimBP2818009B4BEF47CA341DA8B1D97D5F70.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/0_BaseAnimBP.uasset'
+[2017.09.14-23.10.43:493][257]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Animations/0_BaseAnimBP.uasset
+[2017.09.14-23.12.13:192][611]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.14-23.12.37:182][608]BlueprintLog: New page: Compilar 0_Base
+[2017.09.14-23.12.39:899][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2017.09.14-23.12.39:931][814]LogSavePackage: Save=27.50ms
+[2017.09.14-23.12.39:931][814]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/0_Base39102832417F704856D265AED03E083A.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset'
+[2017.09.14-23.12.39:932][814]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset
+[2017.09.14-23.12.42:635][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2017.09.14-23.12.42:662][137]LogSavePackage: Save=25.56ms
+[2017.09.14-23.12.42:662][137]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/0_Base105E1D14447F56414289F89E7A5876A3.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset'
+[2017.09.14-23.12.42:662][137]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset
+[2017.09.14-23.13.56:637][  6]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.14-23.14.14:652][128]BlueprintLog: New page: Compilar 0_Base
+[2017.09.14-23.14.18:334][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2017.09.14-23.14.18:362][456]LogSavePackage: Save=27.39ms
+[2017.09.14-23.14.18:362][456]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/0_BaseE301815842910A51462A80AC1BB71D2D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset'
+[2017.09.14-23.14.18:363][456]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset
+[2017.09.14-23.14.56:608][302]BlueprintLog: New page: Compilar 0_Base
+[2017.09.14-23.14.58:663][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2017.09.14-23.14.58:692][427]LogSavePackage: Save=27.74ms
+[2017.09.14-23.14.58:692][427]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/0_Base4EA9622743F5DFAE6BCB17B4F9D86B5D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset'
+[2017.09.14-23.14.58:693][427]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/0_Base.uasset
+[2017.09.14-23.15.30:525][464]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.011
+[2017.09.14-23.15.30:526][464]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2017.09.14-23.15.30:526][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton]
+[2017.09.14-23.15.30:535][464]LogSavePackage: Save=4.50ms
+[2017.09.14-23.15.30:535][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/UE4_Mannequin_Skeleton_Auto6A4FA424E46B09DC376587EB84B79A46B.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto6.uasset'
+[2017.09.14-23.15.30:535][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto6.uasset
+[2017.09.14-23.15.30:535][464]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton] ([1] browsable assets)...
+[2017.09.14-23.15.30:535][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton]
+[2017.09.14-23.15.30:543][464]LogSavePackage: Save=3.98ms
+[2017.09.14-23.15.30:543][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/SK_Mannequin_Skeleton_Auto69091B45A4E0B5DEEEE6FC28672AEB630.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton_Auto6.uasset'
+[2017.09.14-23.15.30:543][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton_Auto6.uasset
+[2017.09.14-23.15.30:543][464]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Barbarous] ([1] browsable assets)...
+[2017.09.14-23.15.30:552][464]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Barbarous.Barbarous]
+[2017.09.14-23.15.30:552][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Barbarous]
+[2017.09.14-23.15.30:576][464]LogSavePackage: Save=19.95ms
+[2017.09.14-23.15.30:576][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Barbarous_Auto61F216E104B79792CDAB348A515679E23.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Barbarous_Auto6.uasset'
+[2017.09.14-23.15.30:577][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Barbarous_Auto6.uasset
+[2017.09.14-23.15.30:577][464]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Forge] ([1] browsable assets)...
+[2017.09.14-23.15.30:581][464]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Forge.Forge]
+[2017.09.14-23.15.30:581][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Forge]
+[2017.09.14-23.15.30:581][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Forge" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Forge_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:600][464]LogSavePackage: Save=14.89ms
+[2017.09.14-23.15.30:600][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Forge_Auto62E92FB484B31ACADF3D69D8995C1F304.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Forge_Auto6.uasset'
+[2017.09.14-23.15.30:601][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Forge_Auto6.uasset
+[2017.09.14-23.15.30:601][464]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Frosty] ([1] browsable assets)...
+[2017.09.14-23.15.30:605][464]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Frosty.Frosty]
+[2017.09.14-23.15.30:605][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Frosty]
+[2017.09.14-23.15.30:624][464]LogSavePackage: Save=15.07ms
+[2017.09.14-23.15.30:624][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Frosty_Auto6B79441D445B625942E86DD95913B97BB.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Frosty_Auto6.uasset'
+[2017.09.14-23.15.30:625][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Frosty_Auto6.uasset
+[2017.09.14-23.15.30:625][464]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Natural] ([1] browsable assets)...
+[2017.09.14-23.15.30:629][464]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Natural.Natural]
+[2017.09.14-23.15.30:629][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Natural]
+[2017.09.14-23.15.30:648][464]LogSavePackage: Save=14.85ms
+[2017.09.14-23.15.30:648][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Natural_Auto6A86BD82745E158C8BDDFC09A14CFDD3C.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Natural_Auto6.uasset'
+[2017.09.14-23.15.30:649][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Natural_Auto6.uasset
+[2017.09.14-23.15.30:650][464]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Pit] ([1] browsable assets)...
+[2017.09.14-23.15.30:653][464]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Pit.Pit]
+[2017.09.14-23.15.30:653][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Pit]
+[2017.09.14-23.15.30:653][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Pit" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Pit_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:675][464]LogSavePackage: Save=17.47ms
+[2017.09.14-23.15.30:675][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Pit_Auto6A0CE09A64DC5DA51B968C8B813A55613.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Pit_Auto6.uasset'
+[2017.09.14-23.15.30:676][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Pit_Auto6.uasset
+[2017.09.14-23.15.30:676][464]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Robo] ([1] browsable assets)...
+[2017.09.14-23.15.30:680][464]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Robo.Robo]
+[2017.09.14-23.15.30:680][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Robo]
+[2017.09.14-23.15.30:680][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Robo" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Robo_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:699][464]LogSavePackage: Save=14.89ms
+[2017.09.14-23.15.30:699][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Robo_Auto616F289F44CB81044FF2606A89F02E003.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Robo_Auto6.uasset'
+[2017.09.14-23.15.30:699][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Robo_Auto6.uasset
+[2017.09.14-23.15.30:700][464]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Tusk] ([1] browsable assets)...
+[2017.09.14-23.15.30:703][464]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Tusk.Tusk]
+[2017.09.14-23.15.30:703][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Tusk]
+[2017.09.14-23.15.30:703][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Tusk" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Tusk_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:723][464]LogSavePackage: Save=15.16ms
+[2017.09.14-23.15.30:723][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Tusk_Auto6070D9CB9408BBE8F151841AAF1748908.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Tusk_Auto6.uasset'
+[2017.09.14-23.15.30:723][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Tusk_Auto6.uasset
+[2017.09.14-23.15.30:723][464]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Warrior] ([1] browsable assets)...
+[2017.09.14-23.15.30:727][464]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Warrior.Warrior]
+[2017.09.14-23.15.30:727][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Warrior]
+[2017.09.14-23.15.30:749][464]LogSavePackage: Save=16.78ms
+[2017.09.14-23.15.30:749][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Warrior_Auto625B0106D4E337D96E526E5B12332E220.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Warrior_Auto6.uasset'
+[2017.09.14-23.15.30:750][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Characters/Warrior_Auto6.uasset
+[2017.09.14-23.15.30:750][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson_Jump" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPerson_Jump_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:753][464]LogSavePackage: Save=2.72ms
+[2017.09.14-23.15.30:753][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPerson_Jump_Auto64CBC4E514B9648C9FB95BC94EB0851E9.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPerson_Jump_Auto6.uasset'
+[2017.09.14-23.15.30:754][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPerson_Jump_Auto6.uasset
+[2017.09.14-23.15.30:754][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonJump_Loop" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonJump_Loop_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:757][464]LogSavePackage: Save=2.61ms
+[2017.09.14-23.15.30:757][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonJump_Loop_Auto615645D12491833F9C7D7E5BC86FA5182.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonJump_Loop_Auto6.uasset'
+[2017.09.14-23.15.30:758][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonJump_Loop_Auto6.uasset
+[2017.09.14-23.15.30:758][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonJump_Start" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonJump_Start_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:762][464]LogSavePackage: Save=2.69ms
+[2017.09.14-23.15.30:762][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonJump_Start_Auto66232752442DB9C79FCE7ADB1CCDAD5FE.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonJump_Start_Auto6.uasset'
+[2017.09.14-23.15.30:762][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonJump_Start_Auto6.uasset
+[2017.09.14-23.15.30:762][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson_IdleRun_2D" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPerson_IdleRun_2D_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:766][464]LogSavePackage: Save=2.67ms
+[2017.09.14-23.15.30:766][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPerson_IdleRun_2D_Auto6584C740344BAEEFDA89389BB9F27E3BC.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPerson_IdleRun_2D_Auto6.uasset'
+[2017.09.14-23.15.30:766][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPerson_IdleRun_2D_Auto6.uasset
+[2017.09.14-23.15.30:766][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonIdle" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonIdle_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:772][464]LogSavePackage: Save=4.92ms
+[2017.09.14-23.15.30:772][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonIdle_Auto6B52444C949CFD1ABBAAFBC8C4796FD5D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonIdle_Auto6.uasset'
+[2017.09.14-23.15.30:772][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonIdle_Auto6.uasset
+[2017.09.14-23.15.30:772][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonWalk" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonWalk_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:775][464]LogSavePackage: Save=2.54ms
+[2017.09.14-23.15.30:775][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonWalk_Auto663DD3CB042BFECFE35B34DB0E96F1DFF.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonWalk_Auto6.uasset'
+[2017.09.14-23.15.30:775][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonWalk_Auto6.uasset
+[2017.09.14-23.15.30:776][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonRun" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonRun_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:779][464]LogSavePackage: Save=2.69ms
+[2017.09.14-23.15.30:779][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonRun_Auto6FCE286DD455F584116A8B78F77A11427.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonRun_Auto6.uasset'
+[2017.09.14-23.15.30:779][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPersonRun_Auto6.uasset
+[2017.09.14-23.15.30:779][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson_AnimBP" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPerson_AnimBP_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-23.15.30:783][464]LogSavePackage: Save=2.68ms
+[2017.09.14-23.15.30:783][464]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPerson_AnimBP_Auto6B0ADC80F4BF1E0B640AFED88ABBCEED7.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPerson_AnimBP_Auto6.uasset'
+[2017.09.14-23.15.30:783][464]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/ThirdPerson_AnimBP_Auto6.uasset
+[2017.09.14-23.15.30:783][464]LogFileHelpers: Auto-saving content packages took 0.258
+[2017.09.14-23.15.55:666][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Barbarous" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Barbarous.uasset" SILENT=true
+[2017.09.14-23.15.55:682][227]LogSavePackage: Save=14.69ms
+[2017.09.14-23.15.55:682][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/BarbarousA9F4521A489E4017C68D6CA41FDA1613.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Barbarous.uasset'
+[2017.09.14-23.15.55:687][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Barbarous.uasset
+[2017.09.14-23.15.55:688][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Forge" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Forge.uasset" SILENT=true
+[2017.09.14-23.15.55:703][227]LogSavePackage: Save=13.18ms
+[2017.09.14-23.15.55:703][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Forge3D85253D4E2F47A558F5DA8188E5F6C1.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Forge.uasset'
+[2017.09.14-23.15.55:707][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Forge.uasset
+[2017.09.14-23.15.55:709][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Frosty" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Frosty.uasset" SILENT=true
+[2017.09.14-23.15.55:723][227]LogSavePackage: Save=13.11ms
+[2017.09.14-23.15.55:723][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Frosty1FC519CC4F3393F7CE06BF87630A6EA1.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Frosty.uasset'
+[2017.09.14-23.15.55:727][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Frosty.uasset
+[2017.09.14-23.15.55:729][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Natural" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Natural.uasset" SILENT=true
+[2017.09.14-23.15.55:744][227]LogSavePackage: Save=13.08ms
+[2017.09.14-23.15.55:744][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Natural58A8EB66444635A1904C569ECFD20219.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Natural.uasset'
+[2017.09.14-23.15.55:748][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Natural.uasset
+[2017.09.14-23.15.55:750][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Pit" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Pit.uasset" SILENT=true
+[2017.09.14-23.15.55:765][227]LogSavePackage: Save=12.99ms
+[2017.09.14-23.15.55:765][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Pit37F4AF684083B1F585B1228A60C93DE9.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Pit.uasset'
+[2017.09.14-23.15.55:769][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Pit.uasset
+[2017.09.14-23.15.55:771][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Robo" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Robo.uasset" SILENT=true
+[2017.09.14-23.15.55:788][227]LogSavePackage: Save=15.24ms
+[2017.09.14-23.15.55:788][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Robo1B9F5A974B6434D35641B6959E5E7A6D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Robo.uasset'
+[2017.09.14-23.15.55:792][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Robo.uasset
+[2017.09.14-23.15.55:794][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Tusk" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Tusk.uasset" SILENT=true
+[2017.09.14-23.15.55:808][227]LogSavePackage: Save=13.10ms
+[2017.09.14-23.15.55:808][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Tusk73252A4C4B1B50953BC2E383132876C5.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Tusk.uasset'
+[2017.09.14-23.15.55:813][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Tusk.uasset
+[2017.09.14-23.15.55:816][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Warrior" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Warrior.uasset" SILENT=true
+[2017.09.14-23.15.55:830][227]LogSavePackage: Save=12.94ms
+[2017.09.14-23.15.55:830][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/Warrior72FD21E14D720EF97CAD0EBC9C018B84.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Warrior.uasset'
+[2017.09.14-23.15.55:834][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Characters/Warrior.uasset
+[2017.09.14-23.15.55:842][227]LogSavePackage: Save=3.99ms
+[2017.09.14-23.15.55:842][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/SK_Mannequin_Skeleton93A2FE464E2660A4F80937B05F514F2C.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset'
+[2017.09.14-23.15.55:847][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset
+[2017.09.14-23.15.55:854][227]LogSavePackage: Save=3.98ms
+[2017.09.14-23.15.55:854][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/UE4_Mannequin_SkeletonC7256EEC4662DB5077332F87D149885A.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.14-23.15.55:858][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.14-23.15.55:860][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson_AnimBP" FILE="D:/Documents/UnrealProjects/SteamProject/Content/ThirdPerson_AnimBP.uasset" SILENT=true
+[2017.09.14-23.15.55:864][227]LogSavePackage: Save=2.77ms
+[2017.09.14-23.15.55:864][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPerson_AnimBP88E28E2248221B7488830680C2131F53.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/ThirdPerson_AnimBP.uasset'
+[2017.09.14-23.15.55:868][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/ThirdPerson_AnimBP.uasset
+[2017.09.14-23.15.55:870][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson_IdleRun_2D" FILE="D:/Documents/UnrealProjects/SteamProject/Content/ThirdPerson_IdleRun_2D.uasset" SILENT=true
+[2017.09.14-23.15.55:873][227]LogSavePackage: Save=2.67ms
+[2017.09.14-23.15.55:873][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPerson_IdleRun_2D22981E8343D1A690F3B1BBB5DFF1CD81.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/ThirdPerson_IdleRun_2D.uasset'
+[2017.09.14-23.15.55:877][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/ThirdPerson_IdleRun_2D.uasset
+[2017.09.14-23.15.55:880][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson_Jump" FILE="D:/Documents/UnrealProjects/SteamProject/Content/ThirdPerson_Jump.uasset" SILENT=true
+[2017.09.14-23.15.55:885][227]LogSavePackage: Save=3.02ms
+[2017.09.14-23.15.55:885][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPerson_Jump8B3DA45945DBF89EB94054A6D0F8F459.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/ThirdPerson_Jump.uasset'
+[2017.09.14-23.15.55:892][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/ThirdPerson_Jump.uasset
+[2017.09.14-23.15.55:895][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonIdle" FILE="D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonIdle.uasset" SILENT=true
+[2017.09.14-23.15.55:898][227]LogSavePackage: Save=2.76ms
+[2017.09.14-23.15.55:898][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonIdle76DAFF9F4505965BCD9C069B8ED9654D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonIdle.uasset'
+[2017.09.14-23.15.55:902][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonIdle.uasset
+[2017.09.14-23.15.55:904][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonJump_Loop" FILE="D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonJump_Loop.uasset" SILENT=true
+[2017.09.14-23.15.55:908][227]LogSavePackage: Save=2.71ms
+[2017.09.14-23.15.55:908][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonJump_Loop93B51CB74D5906B8A2C3B39004EDCAA9.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonJump_Loop.uasset'
+[2017.09.14-23.15.55:912][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonJump_Loop.uasset
+[2017.09.14-23.15.55:915][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonJump_Start" FILE="D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonJump_Start.uasset" SILENT=true
+[2017.09.14-23.15.55:918][227]LogSavePackage: Save=2.69ms
+[2017.09.14-23.15.55:918][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonJump_StartCCF0E7F0404B18E3E4B0A3B438AB8BC5.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonJump_Start.uasset'
+[2017.09.14-23.15.55:921][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonJump_Start.uasset
+[2017.09.14-23.15.55:922][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonRun" FILE="D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonRun.uasset" SILENT=true
+[2017.09.14-23.15.55:926][227]LogSavePackage: Save=2.70ms
+[2017.09.14-23.15.55:926][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonRun2AA46F034E09B1542484C6B9760A7131.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonRun.uasset'
+[2017.09.14-23.15.55:928][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonRun.uasset
+[2017.09.14-23.15.55:930][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonWalk" FILE="D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonWalk.uasset" SILENT=true
+[2017.09.14-23.15.55:934][227]LogSavePackage: Save=2.74ms
+[2017.09.14-23.15.55:934][227]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ThirdPersonWalk569B7D2B4D6DE71FD55584B6B2C9CD20.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonWalk.uasset'
+[2017.09.14-23.15.55:935][227]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/ThirdPersonWalk.uasset
+[2017.09.14-23.16.30:327][131]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.09.14-23.16.30:586][132]Cmd: QUIT_EDITOR
+[2017.09.14-23.16.30:777][132]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.14-23.16.30:847][132]LogExit: Preparing to exit.
+[2017.09.14-23.16.31:602][132]LogExit: Editor shut down
+[2017.09.14-23.16.31:605][132]LogExit: Transaction tracking system shut down
+[2017.09.14-23.16.31:719][132]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.14-23.16.31:720][132]LogExit: Object subsystem successfully closed.
+[2017.09.14-23.16.31:740][132]LogD3D11RHI: Shutdown
+[2017.09.14-23.16.31:740][132]LogD3D11RHI: CleanupD3DDevice
+[2017.09.14-23.16.31:824][132]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.14-23.16.31:840][132]LogModuleManager: Shutting down and abandoning module SkeletonEditor (510)
+[2017.09.14-23.16.31:840][132]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (508)
+[2017.09.14-23.16.31:840][132]LogModuleManager: Shutting down and abandoning module NewLevelDialog (506)
+[2017.09.14-23.16.31:840][132]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.09.14-23.16.31:840][132]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.09.14-23.16.31:842][132]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.09.14-23.16.31:842][132]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.09.14-23.16.31:842][132]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.09.14-23.16.31:842][132]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.09.14-23.16.31:842][132]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.09.14-23.16.31:842][132]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.09.14-23.16.31:847][132]LogDirectoryWatcher: A directory notification for 'D:/Documents/UnrealProjects/SteamProject/Content/Collections/' was aborted.
+[2017.09.14-23.16.31:847][132]LogDirectoryWatcher: A directory notification for 'D:/Documents/UnrealProjects/SteamProject/Content/Developers/B/Collections/' was aborted.
+[2017.09.14-23.16.31:847][132]LogDirectoryWatcher: A directory notification for 'D:/Documents/UnrealProjects/SteamProject/Saved/Collections/' was aborted.
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.09.14-23.16.31:847][132]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.09.14-23.16.31:848][132]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.09.14-23.16.32:645][132]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.09.14-23.16.32:646][132]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.09.14-23.16.32:646][132]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.09.14-23.16.32:646][132]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.09.14-23.16.32:646][132]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.09.14-23.16.32:646][132]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.09.14-23.16.32:646][132]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.09.14-23.16.32:646][132]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.09.14-23.16.32:689][132]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.09.14-23.16.32:689][132]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.09.14-23.16.32:689][132]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.09.14-23.16.32:689][132]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.09.14-23.16.32:689][132]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.09.14-23.16.32:689][132]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.09.14-23.16.32:689][132]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.09.14-23.16.32:689][132]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.09.14-23.16.32:689][132]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.09.14-23.16.32:695][132]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.09.14-23.16.32:695][132]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.09.14-23.16.32:697][132]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.09.14-23.16.32:720][132]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.09.14-23.16.32:721][132]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.09.14-23.16.32:721][132]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.09.14-23.16.32:721][132]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.09.14-23.16.32:721][132]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.09.14-23.16.32:721][132]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.09.14-23.16.32:722][132]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.09.14-23.16.32:722][132]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.09.14-23.16.32:722][132]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.09.14-23.16.32:722][132]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.09.14-23.16.32:722][132]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.09.14-23.16.32:823][132]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.09.14-23.16.32:924][132]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.09.14-23.16.32:927][132]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.09.14-23.16.32:927][132]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.09.14-23.16.32:927][132]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.09.14-23.16.32:927][132]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.09.14-23.16.32:927][132]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.09.14-23.16.32:927][132]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.09.14-23.16.33:005][132]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.14-23.16.33:005][132]LogDirectoryWatcher: A directory notification for 'D:/Documents/UnrealProjects/SteamProject/Content/' was aborted.
+[2017.09.14-23.16.33:005][132]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.14-23.16.33:005][132]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.09.14-23.16.33:008][132]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.09.14-23.16.33:008][132]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.09.14-23.16.33:008][132]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.09.14-23.16.33:008][132]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.09.14-23.16.33:008][132]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.09.14-23.16.33:008][132]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.09.14-23.16.33:008][132]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.09.14-23.16.33:008][132]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.09.14-23.16.33:043][132]LogDerivedDataCache: Shutdown
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.09.14-23.16.33:043][132]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.09.14-23.16.33:043][132]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.09.14-23.16.33:043][132]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.14-23.16.33:043][132]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAA564876-4BEF-B601-3E8D-E69A1689CB45%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=101723cc4eb5f6d8fead84b5040965ec%7C455ce102a5064060b011804517f05b50%7C6fc386f8-d8e5-4424-9cfe-f97805699848&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.14-23.16.33:060][132]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.09.14-23.16.33:061][132]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.14-23.16.33:061][132]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.14-23.16.33:061][132]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.14-23.16.33:061][132]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.14-23.16.33:061][132]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.14-23.16.33:066][132]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.14-23.16.33:066][132]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.14-23.16.33:066][132]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.14-23.16.33:066][132]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.14-23.16.33:066][132]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.14-23.16.33:066][132]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.14-23.16.33:066][132]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.14-23.16.33:066][132]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.14-23.16.33:066][132]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.14-23.16.33:066][132]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.14-23.16.33:067][132]LogExit: Exiting.
+[2017.09.14-23.16.33:079][132]Log file closed, 09/15/17 01:16:33
