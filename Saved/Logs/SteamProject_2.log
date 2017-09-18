@@ -241,3 +241,851 @@ LogInit: Object subsystem initialized
 [2017.09.16-19.49.54:377][537]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/UEDPCMainMenuBFF7D5C64694CAAE98BE66B6CBEC93D3.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
 [2017.09.16-19.49.54:377][537]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
 [2017.09.16-19.49.54:382][537]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.09.16-21.22.35:322][  3]LogAIModule: Creating AISystem for world Lobby
+[2017.09.16-21.22.35:357][  3]Cmd: MAP LOAD FILE="D:/Documents/UnrealProjects/SteamProject/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.16-21.22.35:357][  3]LightingResults: New page: Lighting Build
+[2017.09.16-21.22.35:359][  3]LoadErrors: New page: Loading map: Lobby.umap
+[2017.09.16-21.22.35:359][  3]MapCheck: New page: Map Check
+[2017.09.16-21.22.35:359][  3]LightingResults: New page: Lighting Build
+[2017.09.16-21.22.35:429][  3]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.16-21.22.35:450][  3]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.16-21.22.36:255][  3]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 805.056ms to complete.
+[2017.09.16-21.22.36:256][  3]LogFileHelpers: Loading map 'Lobby' took 0.900
+[2017.09.16-21.22.36:259][  3]LogSlate: Took 0.002686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.16-21.22.38:562][274]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.16-21.38.16:089][283]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.09.16-21.47.44:635][221]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.037
+[2017.09.16-21.47.44:637][221]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2017.09.16-21.47.44:637][221]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2017.09.16-21.47.44:637][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.16-21.47.44:676][221]LogSavePackage: Save=23.27ms
+[2017.09.16-21.47.44:676][221]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyGM_Auto1F87109E9435B40A736DC7FA22DCF9448.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto1.uasset'
+[2017.09.16-21.47.44:677][221]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto1.uasset
+[2017.09.16-21.47.44:677][221]LogFileHelpers: Auto-saving content packages took 0.041
+[2017.09.16-21.49.12:199][ 66]LogSlate: Took 0.004832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.16-21.57.45:425][225]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.027
+[2017.09.16-21.57.45:426][225]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2017.09.16-21.57.45:426][225]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2017.09.16-21.57.45:426][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.09.16-21.57.45:449][225]LogSavePackage: Save=12.81ms
+[2017.09.16-21.57.45:449][225]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyGM_Auto2E2F1300746980DD3D0876D89D68D2A66.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto2.uasset'
+[2017.09.16-21.57.45:449][225]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto2.uasset
+[2017.09.16-21.57.45:449][225]LogFileHelpers: Auto-saving content packages took 0.024
+[2017.09.16-21.59.24:548][910]BlueprintLog: New page: Compile LobbyGM
+[2017.09.16-21.59.25:249][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2017.09.16-21.59.25:261][976]LogSavePackage: Save=8.76ms
+[2017.09.16-21.59.25:261][976]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyGMAA1EBD1F4C4AC871EFE195946E0962FC.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2017.09.16-21.59.25:264][976]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset
+[2017.09.16-22.07.46:226][147]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.024
+[2017.09.16-22.07.46:228][147]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.16-22.07.46:228][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.16-22.07.46:228][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.09.16-22.07.46:240][147]LogSavePackage: Save=5.93ms
+[2017.09.16-22.07.46:240][147]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto3C737ACBE4D2AB348F57BB8880DDC5823.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto3.uasset'
+[2017.09.16-22.07.46:241][147]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto3.uasset
+[2017.09.16-22.07.46:241][147]LogFileHelpers: Auto-saving content packages took 0.014
+[2017.09.16-22.08.08:621][340]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.16-22.08.09:636][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.16-22.08.09:643][451]LogSavePackage: Save=5.25ms
+[2017.09.16-22.08.09:643][451]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenuEAE8C17741E75A07F285D1BBC38EA7F4.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.16-22.08.09:644][451]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.16-22.17.47:095][174]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.040
+[2017.09.16-22.17.47:096][174]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.16-22.17.47:096][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.16-22.17.47:096][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.09.16-22.17.47:112][174]LogSavePackage: Save=7.71ms
+[2017.09.16-22.17.47:112][174]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto40EC9BA4C4ED4ECBF02BB7882AD5B3D59.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto4.uasset'
+[2017.09.16-22.17.47:113][174]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto4.uasset
+[2017.09.16-22.17.47:113][174]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.09.16-23.05.40:350][  0]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.036
+[2017.09.16-23.05.40:351][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.16-23.05.40:351][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.16-23.05.40:351][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.09.16-23.05.40:372][  0]LogSavePackage: Save=10.75ms
+[2017.09.16-23.05.40:372][  0]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto5303DC521417AD2124CA841A404D59AE0.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto5.uasset'
+[2017.09.16-23.05.40:373][  0]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto5.uasset
+[2017.09.16-23.05.40:373][  0]LogFileHelpers: Auto-saving content packages took 0.022
+[2017.09.16-23.08.28:151][904]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.16-23.08.28:989][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.16-23.08.28:998][993]LogSavePackage: Save=6.67ms
+[2017.09.16-23.08.28:998][993]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu1A1BDA2943EB8CC4C078B9B4D60CBBD3.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.16-23.08.28:999][993]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.16-23.12.39:130][ 88]BlueprintLog: New page: Compile LobbyPC
+[2017.09.16-23.12.39:795][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.12.39:809][150]LogSavePackage: Save=7.72ms
+[2017.09.16-23.12.39:809][150]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC1E33FE784EE88C41EA7E53AE586A03F8.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.12.39:810][150]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.13.10:195][959]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.16-23.13.10:825][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.16-23.13.10:836][ 23]LogSavePackage: Save=6.30ms
+[2017.09.16-23.13.10:836][ 23]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu4E486D8B4B7750FBB7D528AEFD78562D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.16-23.13.10:837][ 23]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.16-23.14.42:299][723]BlueprintLog: New page: Compile LobbyPC
+[2017.09.16-23.14.42:959][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.14.42:969][791]LogSavePackage: Save=8.22ms
+[2017.09.16-23.14.42:969][791]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC986D87B64D2D17853D97BE8091542548.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.14.42:970][791]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.14.49:894][621]LogEditorTransaction: Undo Rename Function
+[2017.09.16-23.14.50:476][689]LogEditorTransaction: Undo Add New Function
+[2017.09.16-23.14.51:115][764]LogEditorTransaction: Undo Rename Node
+[2017.09.16-23.14.55:374][274]LogEditorTransaction: Redo Rename Node
+[2017.09.16-23.14.55:813][325]LogEditorTransaction: Redo Add New Function
+[2017.09.16-23.14.56:017][348]LogEditorTransaction: Redo Rename Function
+[2017.09.16-23.15.41:306][582]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.028
+[2017.09.16-23.15.41:307][582]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.16-23.15.41:307][582]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.16-23.15.41:307][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.16-23.15.41:324][582]LogSavePackage: Save=13.31ms
+[2017.09.16-23.15.41:324][582]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto6765971C04B6534076C4B7EBC53162EC8.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto6.uasset'
+[2017.09.16-23.15.41:324][582]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto6.uasset
+[2017.09.16-23.15.41:325][582]LogFileHelpers: Auto-saving content packages took 0.018
+[2017.09.16-23.16.04:382][438]BlueprintLog: New page: Compile LobbyPC
+[2017.09.16-23.16.04:942][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.16.04:953][494]LogSavePackage: Save=8.87ms
+[2017.09.16-23.16.04:953][494]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC6DA270C04CB56D5E2ECB109E1E8B81D4.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.16.04:954][494]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.17.52:360][956]BlueprintLog: New page: Compile LobbyPC
+[2017.09.16-23.17.52:365][956]LogBlueprint:Error: [Compiler LobbyPC] Error Could not find a pin for the parameter ChangedStatus? of CallUpdate on  Call Update
+[2017.09.16-23.17.52:365][956]LogBlueprint:Error: [Compiler LobbyPC] Error Pin  New Param 2  named NewParam2 doesn't match any parameters of function CallUpdate
+[2017.09.16-23.17.52:492][956]BlueprintEditorCompileResults:Error: Error Could not find a pin for the parameter ChangedStatus? of CallUpdate on  Call Update
+[2017.09.16-23.17.52:493][956]BlueprintEditorCompileResults:Error: Error Pin  New Param 2  named NewParam2 doesn't match any parameters of function CallUpdate
+[2017.09.16-23.17.52:493][956]LogBlueprint:Warning: [Compiler LobbyPC] Warning [3207.37] Compile of LobbyPC failed. 2 Fatal Issue(s) 0 Warning(s) [in 132 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.09.16-23.17.52:996][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.17.53:011][ 14]LogSavePackage: Save=8.81ms
+[2017.09.16-23.17.53:011][ 14]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC355BD6014F5512C6F740BC974138FBA2.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.17.53:012][ 14]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.18.15:792][146]BlueprintLog: New page: Compile LobbyPC
+[2017.09.16-23.18.16:421][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.18.16:433][210]LogSavePackage: Save=8.85ms
+[2017.09.16-23.18.16:433][210]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPCA83B73A24D3B4C9129422CB67D0AD89C.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.18.16:434][210]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.18.28:550][659]BlueprintLog: New page: Compile LobbyPC
+[2017.09.16-23.18.30:375][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.18.30:387][867]LogSavePackage: Save=9.26ms
+[2017.09.16-23.18.30:387][867]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPCDC22D046402103CBB6F40DA41F199C42.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.18.30:388][867]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.20.46:656][145]BlueprintLog: New page: Compile LobbyPC
+[2017.09.16-23.20.47:665][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.20.47:678][247]LogSavePackage: Save=9.82ms
+[2017.09.16-23.20.47:678][247]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPCE3DAC7664776964771C9B29941EE628D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.20.47:679][247]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.22.59:937][773]BlueprintLog: New page: Compile LobbyPC
+[2017.09.16-23.23.00:552][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.23.00:569][835]LogSavePackage: Save=10.53ms
+[2017.09.16-23.23.00:569][835]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC36CA5C9E4D28B8BBB9E34B8952662074.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.23.00:570][835]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.23.21:448][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.23.21:462][205]LogSavePackage: Save=10.84ms
+[2017.09.16-23.23.21:462][205]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPCFDE148104CF02F705A39768B3C72C202.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.23.21:463][205]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.23.22:298][305]BlueprintLog: New page: Compile LobbyPC
+[2017.09.16-23.23.23:502][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.23.23:514][438]LogSavePackage: Save=9.92ms
+[2017.09.16-23.23.23:514][438]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC62ADE0AA4203D3104F8CC8ADD272A840.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.23.23:515][438]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.28.33:234][198]BlueprintLog: New page: Compile LobbyPC
+[2017.09.16-23.28.33:762][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.28.33:777][249]LogSavePackage: Save=10.31ms
+[2017.09.16-23.28.33:778][249]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPCDDD170BA46C6CD3E69E8FFA2FD593903.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.28.33:779][249]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.29.23:318][504]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.013
+[2017.09.16-23.29.23:319][504]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.16-23.29.23:319][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.16-23.29.23:319][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.09.16-23.29.23:333][504]LogSavePackage: Save=12.06ms
+[2017.09.16-23.29.23:333][504]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto7BC406126471837CD70198E995AEBA565.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto7.uasset'
+[2017.09.16-23.29.23:333][504]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto7.uasset
+[2017.09.16-23.29.23:333][504]LogFileHelpers: Auto-saving content packages took 0.015
+[2017.09.16-23.29.24:613][657]BlueprintLog: New page: Compile LobbyPC
+[2017.09.16-23.29.25:200][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.16-23.29.25:215][715]LogSavePackage: Save=11.89ms
+[2017.09.16-23.29.25:215][715]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC3B345AB247DBB0D7C2341C88B950708D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.16-23.29.25:216][715]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.16-23.40.58:164][439]LogEditorTransaction: Undo Move Node
+[2017.09.16-23.40.58:399][461]LogEditorTransaction: Undo Move Node
+[2017.09.16-23.40.58:609][480]LogEditorTransaction: Undo Move Node
+[2017.09.16-23.40.58:933][513]LogEditorTransaction: Undo Move Node
+[2017.09.16-23.40.59:177][537]LogEditorTransaction: Undo Move Node
+[2017.09.16-23.40.59:404][559]LogEditorTransaction: Undo Move Nodes
+[2017.09.16-23.40.59:915][615]LogEditorTransaction: Undo Move Node
+[2017.09.16-23.41.00:367][664]LogEditorTransaction: Undo Move Nodes
+[2017.09.16-23.41.36:274][530]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.015
+[2017.09.16-23.41.36:275][530]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.16-23.41.36:275][530]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.16-23.41.36:275][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.09.16-23.41.36:299][530]LogSavePackage: Save=16.30ms
+[2017.09.16-23.41.36:299][530]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto84704AC334881572DC76D43B3A50F99F1.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto8.uasset'
+[2017.09.16-23.41.36:310][530]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto8.uasset
+[2017.09.16-23.41.36:310][530]LogFileHelpers: Auto-saving content packages took 0.035
+[2017.09.16-23.51.36:133][758]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.014
+[2017.09.16-23.51.36:134][758]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.16-23.51.36:134][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.16-23.51.36:134][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.09.16-23.51.36:158][758]LogSavePackage: Save=16.18ms
+[2017.09.16-23.51.36:158][758]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto9A15B6F2D4C8D1EDBE7FB6BAD7A7BC243.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto9.uasset'
+[2017.09.16-23.51.36:159][758]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto9.uasset
+[2017.09.16-23.51.36:159][758]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.09.17-00.23.57:670][803]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.017
+[2017.09.17-00.23.57:671][803]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.17-00.23.57:671][803]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.17-00.23.57:671][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-00.23.57:700][803]LogSavePackage: Save=17.47ms
+[2017.09.17-00.23.57:700][803]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto02AF517824B3A40CF8BB19C8FFAA386D0.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto0.uasset'
+[2017.09.17-00.23.57:701][803]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto0.uasset
+[2017.09.17-00.23.57:701][803]LogFileHelpers: Auto-saving content packages took 0.030
+[2017.09.17-00.38.09:704][649]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.013
+[2017.09.17-00.38.09:705][649]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.17-00.38.09:705][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.17-00.38.09:705][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-00.38.09:730][649]LogSavePackage: Save=17.40ms
+[2017.09.17-00.38.09:730][649]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto12EE9889E40E65E96DD77F499A4D209A7.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto1.uasset'
+[2017.09.17-00.38.09:730][649]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto1.uasset
+[2017.09.17-00.38.09:730][649]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.09.17-00.48.10:470][543]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.027
+[2017.09.17-00.48.10:471][543]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.17-00.48.10:471][543]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.17-00.48.10:471][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-00.48.10:502][543]LogSavePackage: Save=22.47ms
+[2017.09.17-00.48.10:502][543]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto2432E93904D82873AC28C32959E1D7D42.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto2.uasset'
+[2017.09.17-00.48.10:503][543]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto2.uasset
+[2017.09.17-00.48.10:503][543]LogFileHelpers: Auto-saving content packages took 0.032
+[2017.09.17-00.58.11:247][706]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.026
+[2017.09.17-00.58.11:249][706]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.17-00.58.11:249][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.17-00.58.11:249][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-00.58.11:287][706]LogSavePackage: Save=29.52ms
+[2017.09.17-00.58.11:287][706]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto32B2AF7FF415AD7BBFC6BA8A9B28C07F3.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto3.uasset'
+[2017.09.17-00.58.11:287][706]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto3.uasset
+[2017.09.17-00.58.11:287][706]LogFileHelpers: Auto-saving content packages took 0.039
+[2017.09.17-01.02.12:638][343]BlueprintLog: New page: Compile LobbyPC
+[2017.09.17-01.02.40:696][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.17-01.02.40:722][320]LogSavePackage: Save=22.80ms
+[2017.09.17-01.02.40:722][320]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC8D6204B44FCBDF2C4983D99D9EAD3642.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.17-01.02.40:724][320]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.17-01.04.10:335][276]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.17-01.08.11:817][851]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.014
+[2017.09.17-01.08.11:818][851]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.17-01.08.11:818][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.17-01.08.11:818][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-01.08.11:849][851]LogSavePackage: Save=23.62ms
+[2017.09.17-01.08.11:849][851]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto43E23DF31472A0A988589449215A5A615.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto4.uasset'
+[2017.09.17-01.08.11:849][851]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto4.uasset
+[2017.09.17-01.08.11:849][851]LogFileHelpers: Auto-saving content packages took 0.032
+[2017.09.17-01.18.11:645][944]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.014
+[2017.09.17-01.18.11:646][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.17-01.18.11:646][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.17-01.18.11:646][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-01.18.11:677][944]LogSavePackage: Save=24.66ms
+[2017.09.17-01.18.11:677][944]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto5D6B4AB2A4EE1352971AC80AB431A5A51.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto5.uasset'
+[2017.09.17-01.18.11:677][944]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto5.uasset
+[2017.09.17-01.18.11:677][944]LogFileHelpers: Auto-saving content packages took 0.032
+[2017.09.17-01.28.17:851][773]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.014
+[2017.09.17-01.28.17:852][773]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.17-01.28.17:852][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.17-01.28.17:852][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-01.28.17:899][773]LogSavePackage: Save=38.67ms
+[2017.09.17-01.28.17:899][773]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto6293D799541379C4DC43113932F3FB6FD.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto6.uasset'
+[2017.09.17-01.28.17:900][773]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto6.uasset
+[2017.09.17-01.28.17:900][773]LogFileHelpers: Auto-saving content packages took 0.048
+[2017.09.17-01.36.52:015][518]LogEditorTransaction: Undo Add Node
+[2017.09.17-01.38.26:734][948]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.017
+[2017.09.17-01.38.26:735][948]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.09.17-01.38.26:735][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2017.09.17-01.38.26:735][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-01.38.26:769][948]LogSavePackage: Save=26.94ms
+[2017.09.17-01.38.26:769][948]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC_Auto73B8810D24EECC55461478EA181F3DE1F.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto7.uasset'
+[2017.09.17-01.38.26:769][948]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto7.uasset
+[2017.09.17-01.38.26:769][948]LogFileHelpers: Auto-saving content packages took 0.035
+[2017.09.17-01.39.48:717][445]BlueprintLog: New page: Compile LobbyPC
+[2017.09.17-01.39.49:350][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2017.09.17-01.39.49:382][504]LogSavePackage: Save=29.01ms
+[2017.09.17-01.39.49:382][504]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyPC3DA9EDAC4468A1D461CF4D8CEA4B2426.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2017.09.17-01.39.49:383][504]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyPC.uasset
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/AllLevels/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_6.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_5.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_4.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/AllLevels/LoadingScreen.LoadingScreen_C:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_3.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/MainMenu/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_2.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/MainMenu/OptionsMenu.OptionsMenu:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_20.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/MainMenu/ServerMenu.ServerMenu:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:LobbyMenu_C_24.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_19.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_18.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_1.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_7.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/MainMenu/HostMenu.HostMenu_C:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/MainMenu/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/MainMenu/OptionsMenu.OptionsMenu_C:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/MainMenu/ServerMenu.ServerMenu_C:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_LobbyMenu_C_26:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_11.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_12.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_13.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_14.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_15.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_16.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_17.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_22.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_23.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_24.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_25.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_26.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_27.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_LobbyMenu_C_48:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:MainMenu_C_0.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:LobbyMenu_C_25.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/Lobby/LobbyMenu.LobbyMenu_C:WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:569][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_15:LobbyMenu_C_21.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:MainMenu_C_1.WidgetTree.CanvasPanel_0
+[2017.09.17-11.38.26:570][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/UI/MainMenu/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.09.17-11.38.26:570][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/UI/MainMenu/OptionsMenu.OptionsMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.09.17-11.38.26:570][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/UI/MainMenu/ServerMenu.ServerMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.09.17-11.38.26:570][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_20:MainMenu_C_1.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.09.17-11.38.26:570][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_20:MainMenu_C_0.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.09.17-11.38.26:570][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/UI/MainMenu/HostMenu.HostMenu_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.09.17-11.38.26:570][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/UI/MainMenu/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.09.17-11.38.26:570][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/UI/MainMenu/ServerMenu.ServerMenu_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.09.17-11.38.26:570][735]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/UI/MainMenu/OptionsMenu.OptionsMenu_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.09.17-11.38.26:570][735]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (Border /Engine/UMG/Editor/Transient.Border_0).  Import failed...
+[2017.09.17-11.38.26:570][735]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2017.09.17-11.39.00:499][936]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.027
+[2017.09.17-11.39.00:501][936]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-11.39.00:501][936]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-11.39.00:501][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-11.39.00:521][936]LogSavePackage: Save=11.74ms
+[2017.09.17-11.39.00:521][936]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto8AD29EEDF42B0570B502EFD9BB2A73C4A.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto8.uasset'
+[2017.09.17-11.39.00:521][936]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto8.uasset
+[2017.09.17-11.39.00:521][936]LogFileHelpers: Auto-saving content packages took 0.021
+[2017.09.17-11.40.57:682][471]LogSlate: Took 0.020607 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.09.17-11.43.42:201][700]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.17-11.43.43:202][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-11.43.43:230][793]LogSavePackage: Save=11.16ms
+[2017.09.17-11.43.43:230][793]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu79EF90BF43C1992E7ED4DB843E488726.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-11.43.43:233][793]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-11.49.29:370][108]LogEditorTransaction: Undo Edit Right
+[2017.09.17-11.49.48:795][420]LogEditorTransaction: Undo Resize Widget
+[2017.09.17-11.52.09:545][281]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.016
+[2017.09.17-11.52.09:547][281]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-11.52.09:547][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-11.52.09:547][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-11.52.09:564][281]LogSavePackage: Save=11.44ms
+[2017.09.17-11.52.09:564][281]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto951EFE7B44FC420C57E70658240FCD247.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto9.uasset'
+[2017.09.17-11.52.09:564][281]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto9.uasset
+[2017.09.17-11.52.09:564][281]LogFileHelpers: Auto-saving content packages took 0.018
+[2017.09.17-11.54.37:101][878]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_8.WidgetTree.VerticalBox_1
+[2017.09.17-11.54.37:101][878]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_9.WidgetTree.VerticalBox_1
+[2017.09.17-11.54.37:101][878]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_10.WidgetTree.VerticalBox_1
+[2017.09.17-11.54.37:101][878]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_11.WidgetTree.VerticalBox_1
+[2017.09.17-11.54.37:101][878]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1.VerticalBoxSlot_7) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_1).  Import failed...
+[2017.09.17-11.54.37:101][878]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_1.VerticalBoxSlot_7''
+[2017.09.17-11.54.39:101][113]LogEditorTransaction: Undo Paste clipboard contents
+[2017.09.17-11.54.40:872][311]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_8.WidgetTree.VerticalBox_1
+[2017.09.17-11.54.40:872][311]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_9.WidgetTree.VerticalBox_1
+[2017.09.17-11.54.40:872][311]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_10.WidgetTree.VerticalBox_1
+[2017.09.17-11.54.40:872][311]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_11.WidgetTree.VerticalBox_1
+[2017.09.17-11.54.40:872][311]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_12.WidgetTree.VerticalBox_1
+[2017.09.17-11.54.40:872][311]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_13.WidgetTree.VerticalBox_1
+[2017.09.17-11.54.40:872][311]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_1.VerticalBoxSlot_7) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_1).  Import failed...
+[2017.09.17-11.54.40:872][311]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_1.VerticalBoxSlot_7''
+[2017.09.17-12.02.10:171][206]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.040
+[2017.09.17-12.02.10:173][206]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-12.02.10:173][206]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-12.02.10:173][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-12.02.10:199][206]LogSavePackage: Save=18.05ms
+[2017.09.17-12.02.10:199][206]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto02AAD74D8491FFB3EA7EE2496E209CDAA.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto0.uasset'
+[2017.09.17-12.02.10:200][206]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto0.uasset
+[2017.09.17-12.02.10:200][206]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.09.17-12.24.20:209][714]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.016
+[2017.09.17-12.24.20:210][714]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-12.24.20:210][714]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-12.24.20:210][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-12.24.20:231][714]LogSavePackage: Save=13.05ms
+[2017.09.17-12.24.20:231][714]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto14BEEDC6745A67E4802BEC29DB3069934.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto1.uasset'
+[2017.09.17-12.24.20:231][714]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto1.uasset
+[2017.09.17-12.24.20:231][714]LogFileHelpers: Auto-saving content packages took 0.021
+[2017.09.17-12.28.55:010][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:010][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_1.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:010][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_4.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:010][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_3.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:010][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_5.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:010][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_6.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:010][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_7.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:010][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_8.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:010][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_9.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:010][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_10.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:010][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_11.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:011][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_17.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:011][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_14.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:011][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_15.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:011][ 56]LogUObjectHash:Warning: Ambiguous search, could be GridPanel /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0 or GridPanel /Engine/Transient.World_18:LobbyMenu_C_16.WidgetTree.GridPanel_0
+[2017.09.17-12.28.55:011][ 56]LogProperty:Warning: Illegal TEXT reference to a private object in external package (GridSlot /Engine/Transient.World_18:LobbyMenu_C_2.WidgetTree.GridPanel_0.GridSlot_0) from referencer (Border /Engine/UMG/Editor/Transient.LobbySettings).  Import failed...
+[2017.09.17-12.28.55:011][ 56]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'GridSlot'GridPanel_0.GridSlot_0''
+[2017.09.17-12.34.20:768][102]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.016
+[2017.09.17-12.34.20:769][102]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-12.34.20:769][102]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-12.34.20:769][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-12.34.20:792][102]LogSavePackage: Save=16.99ms
+[2017.09.17-12.34.20:792][102]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto209B43FCA49D62B446564309B89C04294.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto2.uasset'
+[2017.09.17-12.34.20:792][102]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto2.uasset
+[2017.09.17-12.34.20:792][102]LogFileHelpers: Auto-saving content packages took 0.024
+[2017.09.17-12.42.48:682][482]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_18.WidgetTree.VerticalBox_2
+[2017.09.17-12.42.48:682][482]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_19.WidgetTree.VerticalBox_2
+[2017.09.17-12.42.48:682][482]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_18:LobbyMenu_C_20.WidgetTree.VerticalBox_2
+[2017.09.17-12.42.48:682][482]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.VerticalBox_2.VerticalBoxSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_12).  Import failed...
+[2017.09.17-12.42.48:682][482]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_2.VerticalBoxSlot_0''
+[2017.09.17-12.42.52:474][928]LogEditorTransaction: Undo Paste clipboard contents
+[2017.09.17-12.42.59:536][752]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.HorizontalBox_10 or HorizontalBox /Engine/Transient.World_18:LobbyMenu_C_23.WidgetTree.HorizontalBox_10
+[2017.09.17-12.42.59:536][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/Lobby/LobbyMenu.LobbyMenu:WidgetTree.HorizontalBox_10.HorizontalBoxSlot_5) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_12).  Import failed...
+[2017.09.17-12.42.59:536][752]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_10.HorizontalBoxSlot_5''
+[2017.09.17-12.44.59:110][933]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.015
+[2017.09.17-12.44.59:111][933]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-12.44.59:111][933]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-12.44.59:111][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-12.44.59:180][933]LogSavePackage: Save=30.59ms
+[2017.09.17-12.44.59:180][933]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto370533B4E409D93D08F5EBD8E4A1FDD01.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto3.uasset'
+[2017.09.17-12.44.59:181][933]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto3.uasset
+[2017.09.17-12.44.59:181][933]LogFileHelpers: Auto-saving content packages took 0.071
+[2017.09.17-12.54.59:846][989]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.033
+[2017.09.17-12.54.59:847][989]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-12.54.59:847][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-12.54.59:847][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-12.54.59:877][989]LogSavePackage: Save=21.65ms
+[2017.09.17-12.54.59:877][989]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto41E5D87D7430BF7DFC731AFAC30F618D4.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto4.uasset'
+[2017.09.17-12.54.59:877][989]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto4.uasset
+[2017.09.17-12.54.59:877][989]LogFileHelpers: Auto-saving content packages took 0.031
+[2017.09.17-15.46.51:292][232]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.024
+[2017.09.17-15.46.51:293][232]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-15.46.51:293][232]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-15.46.51:293][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-15.46.51:316][232]LogSavePackage: Save=15.62ms
+[2017.09.17-15.46.51:316][232]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto541F5616F48AE4BB2F5B0F1885FC42D95.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto5.uasset'
+[2017.09.17-15.46.51:316][232]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto5.uasset
+[2017.09.17-15.46.51:316][232]LogFileHelpers: Auto-saving content packages took 0.023
+[2017.09.17-15.48.51:405][  3]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.17-15.48.53:005][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-15.48.53:027][174]LogSavePackage: Save=19.62ms
+[2017.09.17-15.48.53:027][174]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenuBEB072824E52261BADCDFB87A0A605F0.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-15.48.53:030][174]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-15.53.23:380][990]BlueprintLog: New page: Compile LobbyGM
+[2017.09.17-15.53.24:164][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2017.09.17-15.53.24:180][ 54]LogSavePackage: Save=9.56ms
+[2017.09.17-15.53.24:180][ 54]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyGMADAC39934E18EE0F79A8BBBC0A96DD54.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2017.09.17-15.53.24:181][ 54]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset
+[2017.09.17-15.55.56:897][211]BlueprintLog: New page: Compile ConnectedPlayer
+[2017.09.17-15.55.57:738][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2017.09.17-15.55.57:750][294]LogSavePackage: Save=5.99ms
+[2017.09.17-15.55.57:750][294]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/ConnectedPlayerDA5AD43542013C5F53FBAC9EC92A3891.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2017.09.17-15.55.57:751][294]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/ConnectedPlayer.uasset
+[2017.09.17-15.56.35:354][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.17-15.57.48:250][852]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.028
+[2017.09.17-15.57.48:251][852]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-15.57.48:251][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-15.57.48:251][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-15.57.48:291][852]LogSavePackage: Save=30.94ms
+[2017.09.17-15.57.48:291][852]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto6814FB36047E454205B4ADBB6A653DFF2.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto6.uasset'
+[2017.09.17-15.57.48:292][852]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto6.uasset
+[2017.09.17-15.57.48:292][852]LogFileHelpers: Auto-saving content packages took 0.041
+[2017.09.17-16.05.52:771][165]LogEditorTransaction: Undo Move Node
+[2017.09.17-16.05.53:437][239]LogEditorTransaction: Undo Split Struct Pin
+[2017.09.17-16.08.24:804][  5]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.018
+[2017.09.17-16.08.24:805][  5]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-16.08.24:805][  5]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-16.08.24:805][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-16.08.24:837][  5]LogSavePackage: Save=25.67ms
+[2017.09.17-16.08.24:837][  5]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto731300CE7433E2F35AED6998408FF523D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto7.uasset'
+[2017.09.17-16.08.24:837][  5]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto7.uasset
+[2017.09.17-16.08.24:837][  5]LogFileHelpers: Auto-saving content packages took 0.033
+[2017.09.17-16.16.51:821][676]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.17-16.16.52:259][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-16.16.52:294][706]LogSavePackage: Save=27.97ms
+[2017.09.17-16.16.52:294][706]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu5D09FE194B9FB9C46D02ABB63CF9706B.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-16.16.52:295][706]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-16.17.41:023][167]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.17-16.17.41:694][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-16.17.41:724][232]LogSavePackage: Save=27.08ms
+[2017.09.17-16.17.41:724][232]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu0FDCF24546C3C2F753C0018EBAC687AF.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-16.17.41:724][232]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-16.19.02:236][422]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.014
+[2017.09.17-16.19.02:237][422]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2017.09.17-16.19.02:237][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2017.09.17-16.19.02:237][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-16.19.02:253][422]LogSavePackage: Save=8.85ms
+[2017.09.17-16.19.02:253][422]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyGM_Auto8A3C644334D3DCE327D0B05903850EB76.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto8.uasset'
+[2017.09.17-16.19.02:253][422]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto8.uasset
+[2017.09.17-16.19.02:253][422]LogFileHelpers: Auto-saving content packages took 0.015
+[2017.09.17-16.19.19:534][793]BlueprintLog: New page: Compile LobbyGM
+[2017.09.17-16.19.20:099][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2017.09.17-16.19.20:111][836]LogSavePackage: Save=9.07ms
+[2017.09.17-16.19.20:111][836]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyGM25CB8E4047C6C7EB2B5119B4B393300D.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2017.09.17-16.19.20:112][836]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/Blueprints/Lobby/LobbyGM.uasset
+[2017.09.17-16.29.18:712][719]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.018
+[2017.09.17-16.29.18:714][719]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-16.29.18:714][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-16.29.18:714][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-16.29.18:752][719]LogSavePackage: Save=32.78ms
+[2017.09.17-16.29.18:752][719]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto94ABD403348597818004AB5859150F97A.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto9.uasset'
+[2017.09.17-16.29.18:753][719]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto9.uasset
+[2017.09.17-16.29.18:753][719]LogFileHelpers: Auto-saving content packages took 0.040
+[2017.09.17-16.36.17:488][115]LogEditorTransaction: Undo Move Node
+[2017.09.17-16.40.29:501][  4]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.017
+[2017.09.17-16.40.29:502][  4]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-16.40.29:502][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-16.40.29:502][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-16.40.29:542][  4]LogSavePackage: Save=33.63ms
+[2017.09.17-16.40.29:542][  4]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto0281AE39C4AB0FAEA770A6F962C36A4CF.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto0.uasset'
+[2017.09.17-16.40.29:542][  4]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto0.uasset
+[2017.09.17-16.40.29:542][  4]LogFileHelpers: Auto-saving content packages took 0.041
+[2017.09.17-16.40.37:193][917]LogEditorTransaction: Undo Resize Node
+[2017.09.17-16.43.12:772][584]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.17-16.43.13:358][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-16.43.13:396][628]LogSavePackage: Save=36.06ms
+[2017.09.17-16.43.13:396][628]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu4A175B27455ADFE24218BDA0E4DF9788.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-16.43.13:398][628]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-16.45.11:493][247]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.17-16.45.12:187][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-16.45.12:224][313]LogSavePackage: Save=34.89ms
+[2017.09.17-16.45.12:224][313]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenuA6CB8E63486844AB837140B488619029.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-16.45.12:226][313]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-16.45.54:886][505]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.17-16.50.30:272][508]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.025
+[2017.09.17-16.50.30:273][508]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-16.50.30:273][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-16.50.30:273][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-16.50.30:320][508]LogSavePackage: Save=40.18ms
+[2017.09.17-16.50.30:320][508]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto1031AA5C344F61C0A3AD2689E2529B6C5.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto1.uasset'
+[2017.09.17-16.50.30:320][508]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto1.uasset
+[2017.09.17-16.50.30:320][508]LogFileHelpers: Auto-saving content packages took 0.048
+[2017.09.17-16.53.01:962][204]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.17-16.53.02:563][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-16.53.02:603][247]LogSavePackage: Save=37.45ms
+[2017.09.17-16.53.02:603][247]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenuB76325484A574D6D108D66B8D91CF85E.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-16.53.02:604][247]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-16.53.52:912][430]BlueprintLog: New page: Compile GameSettings
+[2017.09.17-16.53.53:536][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/GameSettings" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/GameSettings.uasset" SILENT=true
+[2017.09.17-16.53.53:548][480]LogSavePackage: Save=6.48ms
+[2017.09.17-16.53.53:548][480]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/GameSettings93474FCF4137D7F1198759A2D84D8445.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/GameSettings.uasset'
+[2017.09.17-16.53.53:549][480]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/GameSettings.uasset
+[2017.09.17-16.55.17:836][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-16.55.17:877][284]LogSavePackage: Save=37.81ms
+[2017.09.17-16.55.17:877][284]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenuF642D2BC4E62ADF79AA692B36F8D8533.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-16.55.17:878][284]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-16.55.18:866][400]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.17-16.55.19:472][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-16.55.19:513][455]LogSavePackage: Save=37.69ms
+[2017.09.17-16.55.19:513][455]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenuB67986A04B2EB7E48B8C789407B32196.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-16.55.19:513][455]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-17.02.09:607][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.019
+[2017.09.17-17.02.09:608][ 88]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-17.02.09:608][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-17.02.09:608][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-17.02.09:655][ 88]LogSavePackage: Save=40.42ms
+[2017.09.17-17.02.09:655][ 88]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto2724816654F83237EA109ABA483358D34.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto2.uasset'
+[2017.09.17-17.02.09:655][ 88]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto2.uasset
+[2017.09.17-17.02.09:655][ 88]LogFileHelpers: Auto-saving content packages took 0.048
+[2017.09.17-17.02.20:020][329]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.17-17.02.20:766][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-17.02.20:808][387]LogSavePackage: Save=39.39ms
+[2017.09.17-17.02.20:808][387]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu5B3C208E45D3BED4D65609A37B65D3ED.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-17.02.20:810][387]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-17.12.30:754][217]LogEditorTransaction: Undo Break Node Links
+[2017.09.17-17.13.40:790][570]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.020
+[2017.09.17-17.13.40:791][570]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2017.09.17-17.13.40:791][570]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2017.09.17-17.13.40:791][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.09.17-17.13.40:843][570]LogSavePackage: Save=45.27ms
+[2017.09.17-17.13.40:843][570]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu_Auto3E1D9EE324450C168729ECD8BD646A737.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto3.uasset'
+[2017.09.17-17.13.40:844][570]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto3.uasset
+[2017.09.17-17.13.40:844][570]LogFileHelpers: Auto-saving content packages took 0.053
+[2017.09.17-17.19.20:172][379]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.17-17.23.10:508][691]Cmd: TRANSACTION UNDO
+[2017.09.17-17.23.10:508][691]LogEditorTransaction: Undo Remove Variable
+[2017.09.17-17.24.05:608][ 56]LogEditorTransaction: Undo Promote To Variable
+[2017.09.17-17.25.35:226][694]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.17-17.25.36:040][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-17.25.36:095][766]LogSavePackage: Save=47.34ms
+[2017.09.17-17.25.36:095][766]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenuD16714094DABBDE28C1F4E98C474FD81.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-17.25.36:096][766]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-17.26.32:829][368]BlueprintLog: New page: Compile LobbyMenu
+[2017.09.17-17.26.33:471][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.09.17-17.26.33:522][426]LogSavePackage: Save=47.15ms
+[2017.09.17-17.26.33:522][426]LogSavePackage: Moving 'D:/Documents/UnrealProjects/SteamProject/Saved/LobbyMenu655ADD9C4608A210F7F7D39C1E8EDC3B.tmp' to 'D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.09.17-17.26.33:522][426]LogSavePackage:Display: Finished SavePackage D:/Documents/UnrealProjects/SteamProject/Content/UI/Lobby/LobbyMenu.uasset
+[2017.09.17-17.35.05:983][897]Cmd: QUIT_EDITOR
+[2017.09.17-17.35.06:009][897]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.17-17.35.06:061][897]LogExit: Preparing to exit.
+[2017.09.17-17.35.07:031][897]LogExit: Editor shut down
+[2017.09.17-17.35.07:032][897]LogExit: Transaction tracking system shut down
+[2017.09.17-17.35.07:201][897]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.17-17.35.07:202][897]LogExit: Object subsystem successfully closed.
+[2017.09.17-17.35.07:223][897]LogD3D11RHI: Shutdown
+[2017.09.17-17.35.07:223][897]LogD3D11RHI: CleanupD3DDevice
+[2017.09.17-17.35.07:281][897]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.17-17.35.07:294][897]LogModuleManager: Shutting down and abandoning module SequencerWidgets (506)
+[2017.09.17-17.35.07:295][897]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.09.17-17.35.07:295][897]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.09.17-17.35.07:295][897]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.09.17-17.35.07:295][897]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.09.17-17.35.07:295][897]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.09.17-17.35.07:295][897]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.09.17-17.35.07:295][897]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.09.17-17.35.07:298][897]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.09.17-17.35.07:299][897]LogDirectoryWatcher: A directory notification for 'D:/Documents/UnrealProjects/SteamProject/Content/Collections/' was aborted.
+[2017.09.17-17.35.07:299][897]LogDirectoryWatcher: A directory notification for 'D:/Documents/UnrealProjects/SteamProject/Content/Developers/B/Collections/' was aborted.
+[2017.09.17-17.35.07:299][897]LogDirectoryWatcher: A directory notification for 'D:/Documents/UnrealProjects/SteamProject/Saved/Collections/' was aborted.
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.09.17-17.35.07:299][897]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.09.17-17.35.07:882][897]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.09.17-17.35.07:883][897]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.09.17-17.35.07:883][897]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.09.17-17.35.07:883][897]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.09.17-17.35.07:883][897]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.09.17-17.35.07:883][897]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.09.17-17.35.07:883][897]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.09.17-17.35.07:883][897]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.09.17-17.35.07:926][897]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.09.17-17.35.07:926][897]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.09.17-17.35.07:926][897]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.09.17-17.35.07:926][897]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.09.17-17.35.07:926][897]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.09.17-17.35.07:926][897]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.09.17-17.35.07:926][897]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.09.17-17.35.07:926][897]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.09.17-17.35.07:926][897]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.09.17-17.35.07:939][897]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.09.17-17.35.07:939][897]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.09.17-17.35.07:940][897]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.09.17-17.35.07:940][897]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.09.17-17.35.07:940][897]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.09.17-17.35.07:940][897]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.09.17-17.35.07:940][897]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.09.17-17.35.07:940][897]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.09.17-17.35.07:941][897]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.09.17-17.35.07:941][897]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.09.17-17.35.07:941][897]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.09.17-17.35.07:941][897]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.09.17-17.35.07:941][897]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.09.17-17.35.07:941][897]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.09.17-17.35.07:941][897]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.09.17-17.35.07:941][897]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.09.17-17.35.07:941][897]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.09.17-17.35.07:941][897]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (284)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module HTML5Networking (282)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module AlembicImporter (280)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module AlembicLibrary (279)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module GeometryCache (278)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (277)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (272)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module SuperSearch (271)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (268)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module PluginBrowser (266)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (264)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module EpicSurvey (262)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (260)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module DesktopPlatform (259)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module UObjectPlugin (256)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (254)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (252)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module GitSourceControl (250)
+[2017.09.17-17.35.08:002][897]LogModuleManager: Shutting down and abandoning module SourceControl (249)
+[2017.09.17-17.35.08:003][897]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (246)
+[2017.09.17-17.35.08:003][897]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (244)
+[2017.09.17-17.35.08:003][897]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (242)
+[2017.09.17-17.35.08:003][897]LogModuleManager: Shutting down and abandoning module Paper2DEditor (240)
+[2017.09.17-17.35.08:003][897]LogModuleManager: Shutting down and abandoning module MeshPaint (239)
+[2017.09.17-17.35.08:003][897]LogModuleManager: Shutting down and abandoning module LevelEditor (237)
+[2017.09.17-17.35.08:006][897]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (236)
+[2017.09.17-17.35.08:006][897]LogModuleManager: Shutting down and abandoning module MainFrame (234)
+[2017.09.17-17.35.08:006][897]LogModuleManager: Shutting down and abandoning module HotReload (233)
+[2017.09.17-17.35.08:007][897]LogModuleManager: Shutting down and abandoning module ContentBrowser (229)
+[2017.09.17-17.35.08:012][897]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2017.09.17-17.35.08:012][897]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2017.09.17-17.35.08:012][897]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
+[2017.09.17-17.35.08:012][897]LogModuleManager: Shutting down and abandoning module UdpMessaging (220)
+[2017.09.17-17.35.08:114][897]LogModuleManager: Shutting down and abandoning module TcpMessaging (218)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (216)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (214)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module FacialAnimation (212)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module Paper2D (208)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (206)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module WmfMedia (204)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module MfMedia (202)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module MediaAssets (200)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (198)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module VREditor (196)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module UMG (186)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module UMGEditor (185)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module Sequencer (184)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module AssetTools (182)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module MessageLog (181)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (180)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2017.09.17-17.35.08:214][897]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2017.09.17-17.35.08:217][897]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (168)
+[2017.09.17-17.35.08:217][897]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (166)
+[2017.09.17-17.35.08:217][897]LogModuleManager: Shutting down and abandoning module XAudio2 (164)
+[2017.09.17-17.35.08:217][897]LogModuleManager: Shutting down and abandoning module Networking (162)
+[2017.09.17-17.35.08:217][897]LogModuleManager: Shutting down and abandoning module Core (160)
+[2017.09.17-17.35.08:217][897]LogModuleManager: Shutting down and abandoning module AssetRegistry (158)
+[2017.09.17-17.35.08:404][897]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.17-17.35.08:404][897]LogDirectoryWatcher: A directory notification for 'D:/Documents/UnrealProjects/SteamProject/Content/' was aborted.
+[2017.09.17-17.35.08:404][897]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.17-17.35.08:404][897]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2017.09.17-17.35.08:407][897]LogModuleManager: Shutting down and abandoning module KismetCompiler (154)
+[2017.09.17-17.35.08:407][897]LogModuleManager: Shutting down and abandoning module PhysXFormats (152)
+[2017.09.17-17.35.08:407][897]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2017.09.17-17.35.08:407][897]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (149)
+[2017.09.17-17.35.08:407][897]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (147)
+[2017.09.17-17.35.08:407][897]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (145)
+[2017.09.17-17.35.08:407][897]LogModuleManager: Shutting down and abandoning module PropertyEditor (143)
+[2017.09.17-17.35.08:408][897]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
+[2017.09.17-17.35.08:490][897]LogDerivedDataCache: Shutdown
+[2017.09.17-17.35.08:490][897]LogModuleManager: Shutting down and abandoning module TargetPlatform (138)
+[2017.09.17-17.35.08:490][897]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (137)
+[2017.09.17-17.35.08:490][897]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (135)
+[2017.09.17-17.35.08:490][897]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (133)
+[2017.09.17-17.35.08:490][897]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (131)
+[2017.09.17-17.35.08:490][897]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (129)
+[2017.09.17-17.35.08:490][897]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (127)
+[2017.09.17-17.35.08:490][897]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (125)
+[2017.09.17-17.35.08:490][897]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (123)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (121)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module ImageWrapper (120)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (117)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (115)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (113)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (111)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (109)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (107)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (105)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (103)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (101)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module Messaging (99)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (97)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (95)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (69)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (67)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (65)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (63)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (61)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module InputCore (58)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module Settings (56)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module OculusRift (54)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.17-17.35.08:491][897]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.17-17.35.08:491][897]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.09.17-17.35.08:492][897]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.09.17-17.35.08:493][897]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.17-17.35.08:494][897]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.09.17-17.35.08:494][897]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.09.17-17.35.08:494][897]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.17-17.35.08:494][897]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B18B9499B-4607-12B8-992C-418ECEF6E5D8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=101723cc4eb5f6d8fead84b5040965ec%7C455ce102a5064060b011804517f05b50%7C6fc386f8-d8e5-4424-9cfe-f97805699848&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.17-17.35.08:525][897]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.09.17-17.35.08:526][897]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.17-17.35.08:526][897]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.17-17.35.08:527][897]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.17-17.35.08:527][897]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.17-17.35.08:527][897]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.17-17.35.08:548][897]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.17-17.35.08:548][897]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.17-17.35.08:548][897]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.17-17.35.08:548][897]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.17-17.35.08:548][897]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.17-17.35.08:548][897]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.17-17.35.08:548][897]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.17-17.35.08:548][897]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.17-17.35.08:548][897]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.17-17.35.08:548][897]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.17-17.35.08:550][897]LogExit: Exiting.
+[2017.09.17-17.35.08:563][897]Log file closed, 09/17/17 19:35:08
